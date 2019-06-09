@@ -1,0 +1,8 @@
+﻿<Window x:Class="VirtualFileSystem.Browser.TitledStringListView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="{Binding Path=Title}" WindowStartupLocation="CenterScreen" Height="360" Width="475" ResizeMode="NoResize">
+    <Grid>
+        <ListView MaxHeight="615" MaxWidth="475" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollBarVisibility="Visible" ItemsSource="{Binding Path=Strings, Mode=OneTime}"/>
+    </Grid>
+</Window>

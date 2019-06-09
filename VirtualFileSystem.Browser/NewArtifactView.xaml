@@ -1,0 +1,20 @@
+﻿<Window x:Class="VirtualFileSystem.Browser.NewArtifactView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ViewModel="clr-namespace:VirtualFileSystem.ViewModel;assembly=VirtualFileSystem.ViewModel"
+    xmlns:ValueConverters="clr-namespace:VirtualFileSystem.ViewModel.ValueConverters;assembly=VirtualFileSystem.ViewModel"
+    Title="Создать..." Height="221" Width="690" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+	<Window.Resources>
+		<ValueConverters:EnumToCheckBoxIsCheckedConverter x:Key="EnumConverter" />
+	</Window.Resources>
+	<Grid Height="202" Width="647">
+        <Label Height="28" HorizontalAlignment="Left" Name="label1" VerticalAlignment="Top" Width="249.553" Margin="0,12,0,0">Папка, в которой следует создать файл/папку:</Label>
+        <Label Height="28" Margin="253,12,13,0" Name="ArtifactLocationLabel" VerticalAlignment="Top" Content="{Binding Path=Location}" ToolTip="{Binding Path=Location}"></Label>
+        <TextBox Height="23" Margin="253,50,13,0" Name="NameTextBox" Text="{Binding Path=Name, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" VerticalAlignment="Top" TabIndex="0" ToolTip="{Binding RelativeSource={RelativeSource Self}, Path=(Validation.Errors).CurrentItem.ErrorContent}"/>
+        <RadioButton Margin="280,0,272,71" Name="CreateFolderRadioButton" IsChecked="{Binding Path=ArtifactKind, Converter={StaticResource EnumConverter}, ConverterParameter={x:Static ViewModel:ArtifactKind.Folder}}" VerticalAlignment="Bottom" GroupName="ArtifactKindGroup" Height="13.277" TabIndex="2">Создать папку</RadioButton>
+        <RadioButton Margin="280,0,272,97" Name="CreateFileRadioButton" IsChecked="{Binding Path=ArtifactKind, Converter={StaticResource EnumConverter}, ConverterParameter={x:Static ViewModel:ArtifactKind.File}}" GroupName="ArtifactKindGroup" TabIndex="1" Height="13" VerticalAlignment="Bottom">Создать файл</RadioButton>
+        <Button Height="23" HorizontalAlignment="Left" Margin="194,0,0,24" Name="OkButton" VerticalAlignment="Bottom" Width="75" Click="OkButtonClick" TabIndex="3" IsEnabled="{Binding Path=IsValid}">Создать</Button>
+        <Button Height="23" HorizontalAlignment="Right" Margin="0,0,191,24" Name="CancelButton" Click="CancelButtonClick" VerticalAlignment="Bottom" Width="75" TabIndex="4">Отмена</Button>
+        <Label Height="28" HorizontalAlignment="Left" Margin="0,48,0,0" Name="label3" VerticalAlignment="Top" Width="249.553" Content="Название новой папки/файла:"></Label>
+    </Grid>
+</Window>

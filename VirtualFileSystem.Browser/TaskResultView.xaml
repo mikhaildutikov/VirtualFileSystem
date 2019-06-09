@@ -1,0 +1,21 @@
+﻿<Window x:Class="VirtualFileSystem.Browser.TaskResultView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ValueConverters="clr-namespace:VirtualFileSystem.ViewModel.ValueConverters;assembly=VirtualFileSystem.ViewModel"
+    Title="Результат выполнения операции" Height="400" Width="500" ResizeMode="CanResize" WindowStartupLocation="CenterScreen">
+	<Window.Resources>
+		<ValueConverters:TrueFalseToYesNoConveter x:Key="TrueFalseToYesNoConveter" />
+	</Window.Resources>
+	<Grid>
+        <ListView Name="TaskListView" ItemsSource="{Binding Mode=OneWay}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Исходное положение файла/папки" DisplayMemberBinding="{Binding Path=Source, Mode=OneTime}"></GridViewColumn>
+                    <GridViewColumn Header="Положение файла/папки" DisplayMemberBinding="{Binding Path=Destination, Mode=OneTime}"></GridViewColumn>
+                    <GridViewColumn Header="Завершено успешно?" DisplayMemberBinding="{Binding Path=CompletedSuccessfully, Converter={StaticResource TrueFalseToYesNoConveter}, Mode=OneTime}"></GridViewColumn>
+                    <GridViewColumn Header="Ошибка" DisplayMemberBinding="{Binding Path=Error, Mode=OneTime}"></GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

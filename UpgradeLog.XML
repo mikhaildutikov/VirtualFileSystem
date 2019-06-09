@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="VirtualFileSystem">
+</Property><Property Name="Solution File" Value="D:\code\TestTasks\VirtualFileSystem\VirtualFileSystem.sln">
+</Property><Property Name="Date" Value="30 января 2012 г.">
+</Property><Property Name="Time" Value="23:40">
+</Property></Properties><Event ErrorLevel="0" Project="VirtualFileSystem" Source="VirtualFileSystem\VirtualFileSystem.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VirtualFileSystem" Source="VirtualFileSystem\VirtualFileSystem.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VirtualFileSystem.Tests" Source="VirtualFileSystem.Tests\VirtualFileSystem.Tests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VirtualFileSystem.Tests" Source="VirtualFileSystem.Tests\VirtualFileSystem.Tests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VirtualFileSystem.Disk" Source="VirtualFileSystem.Disk\VirtualFileSystem.Disk.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VirtualFileSystem.Disk" Source="VirtualFileSystem.Disk\VirtualFileSystem.Disk.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VirtualFileSystem.Toolbox" Source="VirtualFileSystem.Toolbox\VirtualFileSystem.Toolbox.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VirtualFileSystem.Toolbox" Source="VirtualFileSystem.Toolbox\VirtualFileSystem.Toolbox.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VirtualFileSystem.Browser" Source="VirtualFileSystem.Browser\VirtualFileSystem.Browser.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VirtualFileSystem.Browser" Source="VirtualFileSystem.Browser\VirtualFileSystem.Browser.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VirtualFileSystem.ViewModel" Source="VirtualFileSystem.ViewModel\VirtualFileSystem.ViewModel.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VirtualFileSystem.ViewModel" Source="VirtualFileSystem.ViewModel\VirtualFileSystem.ViewModel.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="VirtualFileSystem.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="VirtualFileSystem.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VirtualFileSystem" Source="VirtualFileSystem\VirtualFileSystem.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="3" Project="" Source="LocalTestRun.testrunconfig" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LocalTestRun.testrunconfig" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="VirtualFileSystem.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="VirtualFileSystem.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="VirtualFileSystem8.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="VirtualFileSystem8.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="VirtualFileSystem9.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="VirtualFileSystem9.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="0" Project="VirtualFileSystem.Tests" Source="VirtualFileSystem.Tests\VirtualFileSystem.Tests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="VirtualFileSystem.Disk" Source="VirtualFileSystem.Disk\VirtualFileSystem.Disk.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="VirtualFileSystem.Toolbox" Source="VirtualFileSystem.Toolbox\VirtualFileSystem.Toolbox.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="VirtualFileSystem.Browser" Source="VirtualFileSystem.Browser\VirtualFileSystem.Browser.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="VirtualFileSystem.ViewModel" Source="VirtualFileSystem.ViewModel\VirtualFileSystem.ViewModel.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

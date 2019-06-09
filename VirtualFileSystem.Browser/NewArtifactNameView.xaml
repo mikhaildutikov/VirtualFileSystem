@@ -1,0 +1,14 @@
+﻿<Window x:Class="VirtualFileSystem.Browser.NewArtifactNameView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="Переименовать..." Height="133" Width="676" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Height="96">
+        <Label Height="28" HorizontalAlignment="Left" Margin="16,10,0,0" Name="label1" VerticalAlignment="Top" Width="204">Введите новое имя для папки/файла:</Label>
+        <TextBox Height="23" Margin="230,12,9,0" Name="NewNameTextBox" VerticalAlignment="Top" TabIndex="0" ToolTip="{Binding RelativeSource={RelativeSource Self}, Path=(Validation.Errors).CurrentItem.ErrorContent}">
+            <Binding Path="Name" UpdateSourceTrigger="PropertyChanged" ValidatesOnDataErrors="True">
+            </Binding>
+        </TextBox>
+        <Button Height="23" HorizontalAlignment="Left" Margin="193,0,0,13" Name="OkButton" VerticalAlignment="Bottom" IsEnabled="{Binding Path=IsValid}" Width="75" TabIndex="1" Click="OkButtonClick" Content="OK">
+        </Button>
+        <Button Height="23" HorizontalAlignment="Right" Margin="0,0,184,13" Name="CancelButton" Click="CancelButtonClick" VerticalAlignment="Bottom" Width="75" TabIndex="2">Отмена</Button>
+    </Grid>
+</Window>

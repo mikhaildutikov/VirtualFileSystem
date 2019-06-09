@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A9CD9412-D02F-4464-9C03-DA2EE99940E0}"
+	ProjectSection(SolutionItems) = preProject
+		AssemblyInfoShared.cs = AssemblyInfoShared.cs
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		VirtualFileSystem.vsmdi = VirtualFileSystem.vsmdi
+		VirtualFileSystem8.vsmdi = VirtualFileSystem8.vsmdi
+		VirtualFileSystem9.vsmdi = VirtualFileSystem9.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualFileSystem", "VirtualFileSystem\VirtualFileSystem.csproj", "{ADAB5108-12EC-4458-8197-74BFCB6C83A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualFileSystem.Tests", "VirtualFileSystem.Tests\VirtualFileSystem.Tests.csproj", "{0EC44C77-9AEA-450E-9FFE-B2ABE1DBBBAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualFileSystem.Disk", "VirtualFileSystem.Disk\VirtualFileSystem.Disk.csproj", "{0AF1357E-BD59-4195-BB99-1F4BF63D1748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualFileSystem.Toolbox", "VirtualFileSystem.Toolbox\VirtualFileSystem.Toolbox.csproj", "{2E51A618-4B79-43E0-A1EA-4F4BA1CA1145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualFileSystem.Browser", "VirtualFileSystem.Browser\VirtualFileSystem.Browser.csproj", "{EDFBBFE0-3B5D-46B5-B747-CD24C513193F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualFileSystem.ViewModel", "VirtualFileSystem.ViewModel\VirtualFileSystem.ViewModel.csproj", "{1EE83F2B-8772-4A33-8A83-CF76D0C32900}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = VirtualFileSystem9.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADAB5108-12EC-4458-8197-74BFCB6C83A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADAB5108-12EC-4458-8197-74BFCB6C83A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADAB5108-12EC-4458-8197-74BFCB6C83A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADAB5108-12EC-4458-8197-74BFCB6C83A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EC44C77-9AEA-450E-9FFE-B2ABE1DBBBAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC44C77-9AEA-450E-9FFE-B2ABE1DBBBAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC44C77-9AEA-450E-9FFE-B2ABE1DBBBAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC44C77-9AEA-450E-9FFE-B2ABE1DBBBAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF1357E-BD59-4195-BB99-1F4BF63D1748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF1357E-BD59-4195-BB99-1F4BF63D1748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF1357E-BD59-4195-BB99-1F4BF63D1748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF1357E-BD59-4195-BB99-1F4BF63D1748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E51A618-4B79-43E0-A1EA-4F4BA1CA1145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E51A618-4B79-43E0-A1EA-4F4BA1CA1145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E51A618-4B79-43E0-A1EA-4F4BA1CA1145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E51A618-4B79-43E0-A1EA-4F4BA1CA1145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDFBBFE0-3B5D-46B5-B747-CD24C513193F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDFBBFE0-3B5D-46B5-B747-CD24C513193F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDFBBFE0-3B5D-46B5-B747-CD24C513193F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDFBBFE0-3B5D-46B5-B747-CD24C513193F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE83F2B-8772-4A33-8A83-CF76D0C32900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE83F2B-8772-4A33-8A83-CF76D0C32900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE83F2B-8772-4A33-8A83-CF76D0C32900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE83F2B-8772-4A33-8A83-CF76D0C32900}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

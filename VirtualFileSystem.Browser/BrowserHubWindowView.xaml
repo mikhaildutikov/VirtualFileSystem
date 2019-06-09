@@ -1,0 +1,12 @@
+﻿<Window x:Class="VirtualFileSystem.Browser.BrowserHubWindowView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Virtual File System Browser" SizeToContent="WidthAndHeight" Height="106" Width="171" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <StackPanel Orientation="Vertical">
+        <Button Height="30" Content="Создать новый виртуальный диск" x:Name="BrowseNewDiskButton" Click="BrowseNewDiskButtonClick" ToolTip="Создать новый виртуальный диск, отформатировать его, загрузить его содержимое в окно браузера">
+        </Button>
+        <Button Height="30" Content="Открыть содержимое диска в окне браузера" x:Name="BrowseExistingDiskButton" Click="BrowseExistingDiskButtonClick" ToolTip="Считать содержимое созданного ранее диска и показать его в окне браузера">
+        </Button>
+        <Button Height="30" Content="Выход" x:Name="ShutdownButton" IsEnabled="{Binding Path=VirtualFileSystemInstanceManager.IsEmpty}" Click="ShutdownButtonClick" ToolTip="Закрыть все открытые окна программы и завершить работу приложения (прежде, чем будет разрешено это сделать, вы должны закрыть все открытые окна приложения - ограничения текущей версии)"></Button>
+    </StackPanel>
+</Window>

@@ -1,0 +1,2941 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="1EE83F2B-8772-4A33-8A83-CF76D0C32900/f:TaskCounter.cs" caret="419" fromTop="15" />
+      <File id="1EE83F2B-8772-4A33-8A83-CF76D0C32900/d:ViewModels/f:TitledStringListViewModel.cs" caret="0" fromTop="0" />
+      <File id="0AF1357E-BD59-4195-BB99-1F4BF63D1748/f:VirtualDisk.cs" caret="11" fromTop="0" />
+      <File id="2E51A618-4B79-43E0-A1EA-4F4BA1CA1145/f:EnumeratorAddressable.cs" caret="8" fromTop="0" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:DiskBlockEnumeration/f:NonEmptyDiskBlockEnumerator.cs" caret="5610" fromTop="5" />
+      <File id="2E51A618-4B79-43E0-A1EA-4F4BA1CA1145/f:IEnumeratorAddressable.cs" caret="366" fromTop="12" />
+      <File id="2E51A618-4B79-43E0-A1EA-4F4BA1CA1145/f:IntegerListConstrained.cs" caret="6775" fromTop="20" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Streaming/f:DataStream.cs" caret="13" fromTop="0" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Import/f:ImportingAddressableObjectVisitor.cs" caret="451" fromTop="12" />
+      <File id="2E51A618-4B79-43E0-A1EA-4F4BA1CA1145/d:Extensions/f:StringExtensions.cs" caret="1690" fromTop="8" />
+      <File id="0EC44C77-9AEA-450E-9FFE-B2ABE1DBBBAC/d:Helpers/f:ExceptionAssert.cs" caret="1538" fromTop="8" />
+      <File id="EDFBBFE0-3B5D-46B5-B747-CD24C513193F/f:BrowserApplicationController.cs" caret="0" fromTop="0" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/f:VirtualFileSystem.cs" caret="222" fromTop="0" />
+      <File id="1EE83F2B-8772-4A33-8A83-CF76D0C32900/d:ViewModels/f:TaskViewModel.cs" caret="795" fromTop="13" />
+      <File id="1EE83F2B-8772-4A33-8A83-CF76D0C32900/d:ViewModels/f:TaskViewModelConverter.cs" caret="0" fromTop="0" />
+      <File id="1EE83F2B-8772-4A33-8A83-CF76D0C32900/f:IUserInteractionService.cs" caret="962" fromTop="16" />
+      <File id="1EE83F2B-8772-4A33-8A83-CF76D0C32900/d:ViewModels/f:VirtualFolderPathViewModel.cs" caret="315" fromTop="9" />
+      <File id="1EE83F2B-8772-4A33-8A83-CF76D0C32900/f:IDispatcher.cs" caret="173" fromTop="8" />
+      <File id="1EE83F2B-8772-4A33-8A83-CF76D0C32900/d:ViewModels/f:NewArtifactViewModel.cs" caret="374" fromTop="12" />
+      <File id="1EE83F2B-8772-4A33-8A83-CF76D0C32900/d:ViewModels/f:NewArtifactNameViewModel.cs" caret="1802" fromTop="43" />
+      <File id="1EE83F2B-8772-4A33-8A83-CF76D0C32900/d:ViewModels/f:FileViewModel.cs" caret="173" fromTop="5" />
+      <File id="1EE83F2B-8772-4A33-8A83-CF76D0C32900/d:ViewModels/f:FileSystemArtifactViewModel.cs" caret="143" fromTop="5" />
+      <File id="EDFBBFE0-3B5D-46B5-B747-CD24C513193F/f:Readme.txt" caret="507" fromTop="4" />
+      <File id="EDFBBFE0-3B5D-46B5-B747-CD24C513193F/f:UserInteractionService.cs" caret="0" fromTop="0" />
+      <File id="EDFBBFE0-3B5D-46B5-B747-CD24C513193F/f:BrowserWindow.xaml" caret="1" fromTop="0" />
+      <File id="EDFBBFE0-3B5D-46B5-B747-CD24C513193F/f:VirtualFolderSelectionView.xaml" caret="1" fromTop="0" />
+      <File id="EDFBBFE0-3B5D-46B5-B747-CD24C513193F/f:EntryPoint.cs" caret="1049" fromTop="26" />
+      <File id="EDFBBFE0-3B5D-46B5-B747-CD24C513193F/f:BrowserHubWindowView.xaml" caret="781" fromTop="7" />
+      <File id="1EE83F2B-8772-4A33-8A83-CF76D0C32900/d:ViewModels/f:BrowserHubWindowViewModel.cs" caret="5390" fromTop="47" />
+      <File id="EDFBBFE0-3B5D-46B5-B747-CD24C513193F/f:BrowserHubWindowView.xaml.cs" caret="372" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="0AF1357E-BD59-4195-BB99-1F4BF63D1748/f:VirtualDisk.cs" caret="19269" fromTop="6" />
+      <File id="0AF1357E-BD59-4195-BB99-1F4BF63D1748/f:VirtualDisk.cs" caret="21042" fromTop="4" />
+      <File id="0AF1357E-BD59-4195-BB99-1F4BF63D1748/f:VirtualDisk.cs" caret="22059" fromTop="8" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Locking/f:FileLockable.cs" caret="966" fromTop="12" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Locking/f:FileLockable.cs" caret="1783" fromTop="15" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Locking/f:FileLockable.cs" caret="4638" fromTop="12" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Locking/f:FileLockable.cs" caret="4273" fromTop="6" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Locking/f:FileLockable.cs" caret="254" fromTop="6" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Locking/f:FileLockable.cs" caret="1305" fromTop="6" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Locking/f:FileSystemObjectLockingManager.cs" caret="4932" fromTop="14" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Locking/f:FileSystemObjectLockingManager.cs" caret="2485" fromTop="17" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Locking/f:FileSystemObjectLockingManager.cs" caret="1189" fromTop="7" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Locking/f:FileSystemObjectLockingManager.cs" caret="3939" fromTop="1" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Locking/f:FileSystemObjectLockingManager.cs" caret="5941" fromTop="1" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Locking/f:FileSystemObjectLockingManager.cs" caret="2920" fromTop="11" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Locking/f:IFileSystemObjectLockingManager.cs" caret="597" fromTop="5" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Locking/f:IFileSystemObjectLockingManager.cs" caret="531" fromTop="12" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Locking/f:FileSystemObjectLockingManager.cs" caret="2542" fromTop="6" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Locking/f:FileSystemObjectLockingManager.cs" caret="2598" fromTop="6" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Locking/f:IFileSystemObjectLockingManager.cs" caret="1282" fromTop="5" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Locking/f:IFileSystemLockReleaseManager.cs" caret="345" fromTop="11" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:DiskBlockEnumeration/f:DiskBlock.cs" caret="2117" fromTop="6" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:FreeSpace/f:FreeBlockManagerDiskWriting.cs" caret="316" fromTop="7" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Import/f:ImportingAddressableObjectVisitor.cs" caret="11206" fromTop="22" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Import/f:ImportingAddressableObjectVisitor.cs" caret="9097" fromTop="13" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Import/f:ImportingAddressableObjectVisitor.cs" caret="2783" fromTop="19" />
+      <File id="1EE83F2B-8772-4A33-8A83-CF76D0C32900/f:VirtualFileSystemInstanceManager.cs" caret="2354" fromTop="5" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Import/f:ImportingAddressableObjectVisitor.cs" caret="908" fromTop="12" />
+      <File id="1EE83F2B-8772-4A33-8A83-CF76D0C32900/d:Visitors/f:IAcceptorForFileSystemArtifactVisitor.cs" caret="339" fromTop="6" />
+      <File id="ADAB5108-12EC-4458-8197-74BFCB6C83A6/d:Streaming/f:DataStreamStructureBuilder.cs" caret="5728" fromTop="21" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="private" priority="157" />
+      <Item value="void" priority="80" />
+      <Item value="string" priority="133" />
+      <Item value="FolderNode`0" priority="32" />
+      <Item value="int" priority="253" />
+      <Item value="dataStream" priority="58" />
+      <Item value="_dataStream" priority="10" />
+      <Item value="currentPosition" priority="6" />
+      <Item value="if" priority="363" />
+      <Item value="movedOk" priority="7" />
+      <Item value="_singleIndirectReferencesCurrentArray" priority="6" />
+      <Item value="_doubleIndirectReferencesArray" priority="7" />
+      <Item value="IntegerArrayNavigator" priority="1" />
+      <Item value="IntegerArrayDiskBlock`0" priority="0" />
+      <Item value="new" priority="567" />
+      <Item value="IntegerArrayDiskBlock" priority="1" />
+      <Item value="byte" priority="112" />
+      <Item value="_disk" priority="37" />
+      <Item value="blockContents" priority="0" />
+      <Item value="array" priority="9" />
+      <Item value="CompositeIndex`0" priority="4" />
+      <Item value="return" priority="259" />
+      <Item value="var" priority="126" />
+      <Item value="GetMaxPosition`0" priority="3" />
+      <Item value="newPosition" priority="24" />
+      <Item value="throw" priority="140" />
+      <Item value="ArgumentOutOfRangeException" priority="20" />
+      <Item value="_indirection" priority="0" />
+      <Item value="value" priority="21" />
+      <Item value="_integers" priority="15" />
+      <Item value="_position" priority="14" />
+      <Item value="MethodArgumentValidator`0" priority="46" />
+      <Item value="compositeIndexOfNewPosition" priority="4" />
+      <Item value="bool" priority="58" />
+      <Item value="this" priority="315" />
+      <Item value="maxPosition" priority="13" />
+      <Item value="isLastBlock" priority="1" />
+      <Item value="numberOfIntegers" priority="1" />
+      <Item value="_dataStreamNavigator" priority="4" />
+      <Item value="offset" priority="7" />
+      <Item value="count" priority="11" />
+      <Item value="Array`0" priority="5" />
+      <Item value="bytesRead" priority="16" />
+      <Item value="positionInArray" priority="1" />
+      <Item value="AppDomainManagerInitializationOptions`0" priority="0" />
+      <Item value="positionInArrayAfterAllHasBeenRead" priority="0" />
+      <Item value="_manager" priority="1" />
+      <Item value="_governingNode" priority="5" />
+      <Item value="_nodeBlockIndex" priority="0" />
+      <Item value="public" priority="136" />
+      <Item value="internal" priority="60" />
+      <Item value="ctor" priority="52" />
+      <Item value="_compositeIndex" priority="6" />
+      <Item value="CompositeIndex" priority="1" />
+      <Item value="initialValue" priority="2" />
+      <Item value="firstIndexCapacity" priority="4" />
+      <Item value="secondIndexCapacity" priority="4" />
+      <Item value="thirdIndexCapacity" priority="5" />
+      <Item value="DoubleIndirectionCompositeIndex`0" priority="7" />
+      <Item value="_singleIndirectionBlockSize" priority="8" />
+      <Item value="_blockSize" priority="5" />
+      <Item value="firstIndex" priority="2" />
+      <Item value="secondIndex" priority="1" />
+      <Item value="thirdIndex" priority="2" />
+      <Item value="_doubleIndirectionBlockSize" priority="6" />
+      <Item value="numberOfBlocksToMap" priority="6" />
+      <Item value="AddressCalculator`0" priority="0" />
+      <Item value="numberOfBytesNeededToStoreTheMap" priority="3" />
+      <Item value="DataStreamNavigator`0" priority="1" />
+      <Item value="DataStreamNavigator" priority="1" />
+      <Item value="disk" priority="37" />
+      <Item value="DiskStructuresManager`0" priority="11" />
+      <Item value="diskStructuresManager" priority="29" />
+      <Item value="folderNode" priority="14" />
+      <Item value="SpaceRequirementsCalculator`0" priority="12" />
+      <Item value="blockSizeInBytes" priority="1" />
+      <Item value="binaryWriter" priority="2" />
+      <Item value="memoryStream" priority="7" />
+      <Item value="BinaryWriter`0" priority="4" />
+      <Item value="BinaryWriter" priority="5" />
+      <Item value="MemoryStream`0" priority="9" />
+      <Item value="writer" priority="6" />
+      <Item value="_virtualDisk" priority="12" />
+      <Item value="indexOfBlockToReadFrom" priority="3" />
+      <Item value="MemoryStream" priority="8" />
+      <Item value="blockBytes" priority="2" />
+      <Item value="BinaryReader`0" priority="6" />
+      <Item value="BinaryReader" priority="4" />
+      <Item value="stream" priority="28" />
+      <Item value="serializedStreamLength" priority="1" />
+      <Item value="DateTimeOffset`0" priority="1" />
+      <Item value="bytes" priority="23" />
+      <Item value="newInteger" priority="0" />
+      <Item value="else" priority="52" />
+      <Item value="_arrayBlockIndex" priority="0" />
+      <Item value="fileReferencesBlock" priority="3" />
+      <Item value="folderReferencesBlock" priority="1" />
+      <Item value="IntegerArrayNavigator`0" priority="0" />
+      <Item value="virtualDisk" priority="21" />
+      <Item value="diskBlockContenst" priority="0" />
+      <Item value="navigator" priority="6" />
+      <Item value="true" priority="52" />
+      <Item value="FileDataStream`0" priority="0" />
+      <Item value="fileDataStream" priority="1" />
+      <Item value="FileDataStream" priority="0" />
+      <Item value="VirtualDisk`0" priority="3" />
+      <Item value="recreatedBlock" priority="0" />
+      <Item value="sizeof" priority="14" />
+      <Item value="indexOfBlockToCreateIndirectionBlockFrom" priority="0" />
+      <Item value="IVirtualDisk`0" priority="7" />
+      <Item value="class" priority="37" />
+      <Item value="_freeSpaceBitmap" priority="22" />
+      <Item value="BitArray" priority="5" />
+      <Item value="freeSpaceBitmap" priority="20" />
+      <Item value="for" priority="35" />
+      <Item value="i" priority="13" />
+      <Item value="InvalidOperationException" priority="8" />
+      <Item value="Length" priority="64" />
+      <Item value="blockOffset" priority="8" />
+      <Item value="startingBlockIndex" priority="2" />
+      <Item value="numberOfBytesToWrite" priority="8" />
+      <Item value="availableSpace" priority="0" />
+      <Item value="ArgumentException" priority="30" />
+      <Item value="while" priority="27" />
+      <Item value="numberOfBytesWritten" priority="4" />
+      <Item value="currentBlockIndex" priority="2" />
+      <Item value="Math`0" priority="6" />
+      <Item value="TimeSpan`0" priority="4" />
+      <Item value="numberOfBytesCanWrite" priority="0" />
+      <Item value="numberOfBytesGoingToWrite" priority="0" />
+      <Item value="_bitArraySizeInBytes" priority="1" />
+      <Item value="_bitmapStorageBlock" priority="0" />
+      <Item value="_bitArrayByteBuffer" priority="2" />
+      <Item value="VirtualFileSystem`0" priority="76" />
+      <Item value="newBlockIndex" priority="2" />
+      <Item value="_freeBlockAcquisitionManager" priority="4" />
+      <Item value="freeBlockAcquisitionManager" priority="20" />
+      <Item value="IFreeBlockAcquisitionManager`0" priority="4" />
+      <Item value="fileSystem" priority="156" />
+      <Item value="VirtualFileSystem" priority="15" />
+      <Item value="ReadOnlyCollectionBase`0" priority="1" />
+      <Item value="numberOfBlocksWrittenTo" priority="3" />
+      <Item value="HeaderReservedBlocks" priority="0" />
+      <Item value="_firstBlockDiskOffset" priority="0" />
+      <Item value="Version`0" priority="0" />
+      <Item value="fileSystemInfo" priority="6" />
+      <Item value="_fileSystemInfo" priority="2" />
+      <Item value="Nullable" priority="4" />
+      <Item value="_indexesOfInaccessibleBlocks" priority="0" />
+      <Item value="IQueryProvider`0" priority="0" />
+      <Item value="Exception" priority="31" />
+      <Item value="using" priority="31" />
+      <Item value="Toolbox.Extensions" priority="15" />
+      <Item value="null" priority="33" />
+      <Item value="_diskStructuresManager" priority="15" />
+      <Item value="FileNode`0" priority="20" />
+      <Item value="FileNode" priority="5" />
+      <Item value="DataStreamDefinition`0" priority="8" />
+      <Item value="dataStreamDefinition" priority="20" />
+      <Item value="DataStreamDefinition" priority="14" />
+      <Item value="blockToStoreDefinitionIn" priority="3" />
+      <Item value="DateTime`0" priority="12" />
+      <Item value="creationTime" priority="1" />
+      <Item value="fileName" priority="20" />
+      <Item value="Guid`0" priority="67" />
+      <Item value="fileNode" priority="25" />
+      <Item value="blockToStoreFileNodeIn" priority="2" />
+      <Item value="Int32`0" priority="1" />
+      <Item value="parentFolder" priority="17" />
+      <Item value="DataStream`0" priority="10" />
+      <Item value="DataStream" priority="5" />
+      <Item value="_dataStreamDefinitionStorage" priority="0" />
+      <Item value="rootNodeBlockIndex" priority="0" />
+      <Item value="static" priority="28" />
+      <Item value="ParamArrayAttribute`0" priority="0" />
+      <Item value="VirtualFileSystemInfo`0" priority="0" />
+      <Item value="DiskStructuresManager" priority="2" />
+      <Item value="FileSystemHeader`0" priority="1" />
+      <Item value="VirtualFileSystemInfo" priority="0" />
+      <Item value="header" priority="3" />
+      <Item value="firstBlockBytes" priority="1" />
+      <Item value="binaryReader" priority="1" />
+      <Item value="freeSpaceLength" priority="3" />
+      <Item value="readonly" priority="31" />
+      <Item value="struct" priority="0" />
+      <Item value="List&lt;int&gt;" priority="12" />
+      <Item value="numberOfItemsToDistribute" priority="5" />
+      <Item value="bucketCapacity" priority="4" />
+      <Item value="remainder" priority="10" />
+      <Item value="distributionResult" priority="5" />
+      <Item value="firstBucketCapacity" priority="8" />
+      <Item value="fullyFilledBuckets" priority="0" />
+      <Item value="foreach" priority="37" />
+      <Item value="numberOfCurrentBlock" priority="2" />
+      <Item value="BucketDistribution" priority="3" />
+      <Item value="BucketDistribution`0" priority="2" />
+      <Item value="distribution" priority="6" />
+      <Item value="initialArrayPosition" priority="1" />
+      <Item value="newArray" priority="0" />
+      <Item value="freeSpaceMap" priority="6" />
+      <Item value="distributions" priority="0" />
+      <Item value="List&lt;BucketDistribution&gt;" priority="0" />
+      <Item value="CollectionAssert`0" priority="21" />
+      <Item value="expectedList" priority="0" />
+      <Item value="bucketIndex" priority="7" />
+      <Item value="object" priority="21" />
+      <Item value="nodeToWrite" priority="3" />
+      <Item value="destinationDiskBlock" priority="1" />
+      <Item value="File" priority="3" />
+      <Item value="File`0" priority="7" />
+      <Item value="MemberwiseClone`0" priority="0" />
+      <Item value="ItemDistributor`0" priority="0" />
+      <Item value="bucketDistribution" priority="3" />
+      <Item value="false" priority="31" />
+      <Item value="IDataStreamNavigator`0" priority="2" />
+      <Item value="NotSupportedException`0" priority="10" />
+      <Item value="DoubleIndirectionBlockNavigationStructures`0" priority="0" />
+      <Item value="navigationStructures" priority="0" />
+      <Item value="protected" priority="5" />
+      <Item value="base" priority="63" />
+      <Item value="IndexOutOfRangeException" priority="0" />
+      <Item value="_index" priority="1" />
+      <Item value="index" priority="17" />
+      <Item value="List&lt;IntegerListNavigator&gt;" priority="0" />
+      <Item value="navigators" priority="0" />
+      <Item value="_navigator" priority="8" />
+      <Item value="EmptyDoubleIndirectDataStreamNavigator`0" priority="0" />
+      <Item value="NonEmptyDoubleIndirectionDataStreamNavigator`0" priority="0" />
+      <Item value="doubleIndirectionBlockSize" priority="1" />
+      <Item value="singleIndirectionBlockSize" priority="2" />
+      <Item value="blockSize" priority="3" />
+      <Item value="IntegerListNavigator`0" priority="1" />
+      <Item value="IntegerListNavigator" priority="1" />
+      <Item value="IntegerBoundedList`0" priority="3" />
+      <Item value="IntegerBoundedList" priority="1" />
+      <Item value="list" priority="1" />
+      <Item value="doublyIndirectNodeNavigator" priority="2" />
+      <Item value="singlyIndirectNodeNavigator" priority="0" />
+      <Item value="numberOfBlock" priority="1" />
+      <Item value="d" priority="0" />
+      <Item value="definition" priority="0" />
+      <Item value="DataStreamDefinitionBurner" priority="1" />
+      <Item value="burner" priority="1" />
+      <Item value="DataStreamDefinitionBurner`0" priority="1" />
+      <Item value="try" priority="56" />
+      <Item value="finally" priority="22" />
+      <Item value="_ints" priority="0" />
+      <Item value="_callNumber" priority="0" />
+      <Item value="FreeBlockAcquisitionManagerFake`0" priority="0" />
+      <Item value="BitArray`0" priority="0" />
+      <Item value="blockNumber" priority="11" />
+      <Item value="FreeBlockAcquisitionManagerBitArrayBased`0" priority="0" />
+      <Item value="_acquisitionManager" priority="0" />
+      <Item value="fileReferencesStream" priority="7" />
+      <Item value="_doubleIndirectionDataStreamNavigator" priority="2" />
+      <Item value="_dataStreamDefinition" priority="18" />
+      <Item value="referencesToBlocks" priority="1" />
+      <Item value="reader" priority="7" />
+      <Item value="List" priority="37" />
+      <Item value="List&lt;FileNode&gt;" priority="0" />
+      <Item value="fileNodes" priority="1" />
+      <Item value="Assert`0" priority="54" />
+      <Item value="rootFolderFiles" priority="1" />
+      <Item value="rootFileReferencesBlock" priority="0" />
+      <Item value="rootFolderReferencesBlock" priority="0" />
+      <Item value="rootBlockIndex" priority="4" />
+      <Item value="_indexOffset" priority="0" />
+      <Item value="FileSystemHeaderReservedBlocks" priority="0" />
+      <Item value="Node`0" priority="10" />
+      <Item value="governingNode" priority="4" />
+      <Item value="integerBoundedList" priority="1" />
+      <Item value="MockRepository" priority="5" />
+      <Item value="mocks" priority="9" />
+      <Item value="freeBlockAcquisitionManagerStub" priority="2" />
+      <Item value="SetupResult`0" priority="2" />
+      <Item value="Func" priority="4" />
+      <Item value="callNumber" priority="1" />
+      <Item value="blockIndexOffset" priority="0" />
+      <Item value="freeBlockAcquisitionManagerBitArrayBased" priority="0" />
+      <Item value="FreeBlockAcquisitionManagerBitArrayBased" priority="0" />
+      <Item value="WebServiceHelper`0" priority="0" />
+      <Item value="bitArray" priority="5" />
+      <Item value="actualIndexes" priority="2" />
+      <Item value="expectedIndexes" priority="0" />
+      <Item value="NoFreeBlocksException`0" priority="6" />
+      <Item value="ExpectedException" priority="0" />
+      <Item value="typeof" priority="0" />
+      <Item value="ExceptionAssert`0" priority="22" />
+      <Item value="ArgumentOutOfRangeException`0" priority="2" />
+      <Item value="blockIndex" priority="24" />
+      <Item value="numberOfBlocksToAcquire" priority="3" />
+      <Item value="IEnumerable`0" priority="0" />
+      <Item value="freeBlocks" priority="10" />
+      <Item value="_blockIndexOffset" priority="3" />
+      <Item value="NoFreeBlocksException" priority="0" />
+      <Item value="HashSet" priority="6" />
+      <Item value="HashSet&lt;int&gt;" priority="1" />
+      <Item value="acquiredBlocks" priority="0" />
+      <Item value="acquiredBlock" priority="0" />
+      <Item value="const" priority="11" />
+      <Item value="numberOfBlocks" priority="2" />
+      <Item value="lastBlock" priority="0" />
+      <Item value="NumberOfTestBlocks" priority="1" />
+      <Item value="_maximumCountOfIntegers" priority="1" />
+      <Item value="IndexOutOfRangeException`0" priority="0" />
+      <Item value="IEnumerator" priority="13" />
+      <Item value="IEnumerable" priority="11" />
+      <Item value="interface" priority="6" />
+      <Item value="ICollection" priority="1" />
+      <Item value="T`0" priority="4" />
+      <Item value="_currentPosition" priority="8" />
+      <Item value="_elementToEnumerateOn" priority="7" />
+      <Item value="_currentObject" priority="1" />
+      <Item value="default" priority="1" />
+      <Item value="IList" priority="3" />
+      <Item value="_listVersion" priority="1" />
+      <Item value="unchecked" priority="0" />
+      <Item value="removedFine" priority="1" />
+      <Item value="Int64`0" priority="0" />
+      <Item value="_listVersionOnFirstMove" priority="2" />
+      <Item value="EnumeratorAddressable&lt;int&gt;" priority="2" />
+      <Item value="ListTrackingChanges&lt;int&gt;" priority="2" />
+      <Item value="doublyIndirectList" priority="0" />
+      <Item value="NotSupportedException" priority="8" />
+      <Item value="IEnumeratorAddressable" priority="3" />
+      <Item value="IDiskBlockNavigator`0" priority="7" />
+      <Item value="EnumeratorAddressable" priority="4" />
+      <Item value="_doubleIndirectReferencesEnumerator" priority="3" />
+      <Item value="IntegerListConstrained" priority="5" />
+      <Item value="_doubleIndirectReferences" priority="0" />
+      <Item value="IntegerListAdapter`0" priority="0" />
+      <Item value="listConstrained" priority="2" />
+      <Item value="_listConstrained" priority="3" />
+      <Item value="_singleIndirectReferencesEnumerator" priority="1" />
+      <Item value="_singleIndirectReferencesCurrentList" priority="3" />
+      <Item value="SetCurrentDiskBlock`0" priority="0" />
+      <Item value="ThreadStaticAttribute`0" priority="5" />
+      <Item value="currentPositionInBlock" priority="1" />
+      <Item value="ListTrackingChanges" priority="1" />
+      <Item value="integers" priority="1" />
+      <Item value="enumerator" priority="29" />
+      <Item value="integersAsTraversed" priority="1" />
+      <Item value="CreateTestList`0" priority="0" />
+      <Item value="IFreeBlockManager`0" priority="8" />
+      <Item value="blockManagerStub" priority="3" />
+      <Item value="numberOfCall" priority="2" />
+      <Item value="_doubleIndirectionDataStreamEnumerator" priority="58" />
+      <Item value="numberOfBytesAvailable" priority="0" />
+      <Item value="numberOfBytesNeeded" priority="6" />
+      <Item value="_freeBlockManager" priority="19" />
+      <Item value="numberOfBlocksNeeded" priority="3" />
+      <Item value="SerializableAttribute`0" priority="1" />
+      <Item value="oldMaxPosition" priority="0" />
+      <Item value="delta" priority="2" />
+      <Item value="blocks" priority="10" />
+      <Item value="lastSinglyIndirectBlock" priority="4" />
+      <Item value="DoubleIndirectionDataStreamEnumerator" priority="1" />
+      <Item value="oldPosition" priority="0" />
+      <Item value="Expect`0" priority="1" />
+      <Item value="blocksCount" priority="0" />
+      <Item value="IntegerConstrainedListTests`0" priority="6" />
+      <Item value="ints" priority="1" />
+      <Item value="doublyIndirectBlockReferences" priority="1" />
+      <Item value="DoubleIndirectionCompositeIndex" priority="3" />
+      <Item value="length" priority="6" />
+      <Item value="_doubleIndirectReferencesList" priority="3" />
+      <Item value="integerCount" priority="0" />
+      <Item value="SizeInBytes" priority="0" />
+      <Item value="_doublyIndirectBlockReferences" priority="0" />
+      <Item value="DiskBlockNavigator" priority="0" />
+      <Item value="integer" priority="0" />
+      <Item value="_capacitiesOfCompositeIndexes" priority="0" />
+      <Item value="_capacity" priority="0" />
+      <Item value="DoubleIndirectionCompositeIndexTests`0" priority="0" />
+      <Item value="index2" priority="3" />
+      <Item value="thirdBlockPosition" priority="0" />
+      <Item value="InvalidOperationException`0" priority="11" />
+      <Item value="isEmpty" priority="0" />
+      <Item value="_enumerator" priority="5" />
+      <Item value="DoubleIndirectionDataStreamEnumeratorStateless`0" priority="0" />
+      <Item value="NonEmptyDoubleIndirectionDataStreamEnumeratorBase`0" priority="0" />
+      <Item value="IDataStream`0" priority="1" />
+      <Item value="_streamOwningNode" priority="5" />
+      <Item value="newLength" priority="11" />
+      <Item value="oldLength" priority="0" />
+      <Item value="DataStreamNodeUpdating" priority="0" />
+      <Item value="parentFolderFileReferencesStream" priority="1" />
+      <Item value="_id" priority="0" />
+      <Item value="id" priority="2" />
+      <Item value="_owningStreamDefinition" priority="0" />
+      <Item value="positionAfterWriting" priority="4" />
+      <Item value="positionBeforeWriting" priority="0" />
+      <Item value="_blockOwningNode" priority="1" />
+      <Item value="isTheLastBlock" priority="0" />
+      <Item value="DiskBlockNavigatorNodeUpdating`0" priority="0" />
+      <Item value="diskBlock" priority="1" />
+      <Item value="streamOwningNode" priority="0" />
+      <Item value="now" priority="0" />
+      <Item value="fileNodeFake" priority="6" />
+      <Item value="filesInTheFolder" priority="0" />
+      <Item value="StringComparison`0" priority="0" />
+      <Item value="fileWithSameName" priority="0" />
+      <Item value="FileAlreadyExistsException" priority="0" />
+      <Item value="Extensions" priority="7" />
+      <Item value="List&lt;string&gt;" priority="0" />
+      <Item value="namesOfFiles" priority="2" />
+      <Item value="ReadOnlyCollection" priority="12" />
+      <Item value="namesOfFilesUnderRoot" priority="0" />
+      <Item value="NonEmptyDoubleIndirectionDataStreamEnumerator" priority="0" />
+      <Item value="_current" priority="3" />
+      <Item value="NullDiskBlock`0" priority="2" />
+      <Item value="_singlyIndirectBlockReferences" priority="0" />
+      <Item value="_singlyIndirectReferencesEnumerator" priority="2" />
+      <Item value="DoubleIndirectionDataStreamEnumerator`0" priority="2" />
+      <Item value="EnvironmentVariableTarget`0" priority="0" />
+      <Item value="CreateDefaultEnumerator1`0" priority="0" />
+      <Item value="nodeUpdatingStream" priority="5" />
+      <Item value="canAvoidNewBlocksAcquisition" priority="0" />
+      <Item value="IO" priority="6" />
+      <Item value="TestContext" priority="0" />
+      <Item value="DiskBlock`0" priority="0" />
+      <Item value="DiskBlock" priority="0" />
+      <Item value="block" priority="8" />
+      <Item value="fourByteBlock" priority="2" />
+      <Item value="iAsByte" priority="3" />
+      <Item value="_numberOfBlocks" priority="2" />
+      <Item value="zeroes" priority="5" />
+      <Item value="Count`1" priority="1" />
+      <Item value="_phantomPosition" priority="10" />
+      <Item value="position" priority="1" />
+      <Item value="phantomPosition" priority="1" />
+      <Item value="divisionRemainder" priority="2" />
+      <Item value="GetCurrentPositionNonPhantom`0" priority="0" />
+      <Item value="arrayToWrite" priority="2" />
+      <Item value="FillArrayWithRelativelyInterestingData`0" priority="0" />
+      <Item value="array1" priority="1" />
+      <Item value="dimension" priority="0" />
+      <Item value="startingPosition" priority="5" />
+      <Item value="sizeMultiplicator" priority="2" />
+      <Item value="occupiedSpaceInBytes" priority="0" />
+      <Item value="oldInsideBlockPosition" priority="0" />
+      <Item value="numberOfBytesToRead" priority="3" />
+      <Item value="VirtualFileSystemFactory`0" priority="1" />
+      <Item value="virtualFileSystem" priority="11" />
+      <Item value="bytesFromStream" priority="0" />
+      <Item value="byteToCheck" priority="0" />
+      <Item value="bytesToWrite" priority="14" />
+      <Item value="testArrayLength" priority="1" />
+      <Item value="halfTestArray" priority="2" />
+      <Item value="numberOfZeroesToAdd" priority="2" />
+      <Item value="TestCollaboratorSet`0" priority="0" />
+      <Item value="TestCollaboratorSet" priority="0" />
+      <Item value="TestCollaboratorsFactory`0" priority="13" />
+      <Item value="testCollaborators" priority="22" />
+      <Item value="Enum`0" priority="0" />
+      <Item value="allBytesThru128" priority="1" />
+      <Item value="someByte" priority="0" />
+      <Item value="allBytes" priority="0" />
+      <Item value="readingStream" priority="2" />
+      <Item value="numbersRead" priority="0" />
+      <Item value="cw" priority="0" />
+      <Item value="subArray" priority="0" />
+      <Item value="arrayOffset" priority="6" />
+      <Item value="indexOfBlockToWriteTo" priority="1" />
+      <Item value="do" priority="0" />
+      <Item value="break" priority="1" />
+      <Item value="numberOfBlocksToLeaveIntact" priority="0" />
+      <Item value="newSize" priority="13" />
+      <Item value="removedItems" priority="1" />
+      <Item value="maxValueIndex" priority="3" />
+      <Item value="doublyIndirectReferencesArray" priority="2" />
+      <Item value="IntegerListConstrained`0" priority="5" />
+      <Item value="singlyIndirectBlockIndex" priority="0" />
+      <Item value="currentCountOfIntegers" priority="2" />
+      <Item value="directBlockIndex" priority="0" />
+      <Item value="newMaxValueIndex" priority="4" />
+      <Item value="oldMaxValueIndex" priority="2" />
+      <Item value="numberOfBlocksToLeave" priority="1" />
+      <Item value="isLastSingleIndirectBlock" priority="1" />
+      <Item value="FileStream`0" priority="2" />
+      <Item value="CreateNew" priority="0" />
+      <Item value="numberOfBlocksToLeaveInDoubleIndirectBlock" priority="1" />
+      <Item value="Disk" priority="1" />
+      <Item value="Dictionary" priority="6" />
+      <Item value="Dictionary&lt;Guid,List&lt;FileNode&gt;&gt;" priority="0" />
+      <Item value="newFileNodeStream" priority="2" />
+      <Item value="newFileNode" priority="1" />
+      <Item value="InsufficientSpaceException" priority="2" />
+      <Item value="InsufficientSpaceException`0" priority="14" />
+      <Item value="valueCloseToDiskSize" priority="1" />
+      <Item value="buffer" priority="18" />
+      <Item value="bufferSize" priority="0" />
+      <Item value="byteToPutInEachArraySlot" priority="0" />
+      <Item value="ByteBufferFactory`0" priority="4" />
+      <Item value="bytes2" priority="1" />
+      <Item value="EmptyDiskBlockEnumerator`0" priority="1" />
+      <Item value="IDoubleIndirectionDataStreamEnumerator`0" priority="0" />
+      <Item value="_doubleIndirectListEnumerator" priority="10" />
+      <Item value="_streamSizeManager" priority="2" />
+      <Item value="numberOfBytesToAdd" priority="4" />
+      <Item value="_doubleIndirectBlocks" priority="2" />
+      <Item value="diskBlockEnumeratorFactory" priority="1" />
+      <Item value="_diskBlockEnumerator" priority="3" />
+      <Item value="streamStructureBuilder" priority="2" />
+      <Item value="addressingSystemParameters" priority="11" />
+      <Item value="_addressingSystemParameters" priority="15" />
+      <Item value="AddressingSystemParameters`0" priority="6" />
+      <Item value="_streamStructureBuilder" priority="6" />
+      <Item value="DataStreamStructureBuilder`0" priority="0" />
+      <Item value="DataStreamStructureBuilder" priority="1" />
+      <Item value="AddressingSystemParameters" priority="1" />
+      <Item value="doublyIndirectReferencesBlockSize" priority="0" />
+      <Item value="numbers" priority="0" />
+      <Item value="number" priority="0" />
+      <Item value="lastSingleIndirectBlockIndex" priority="1" />
+      <Item value="integerListConstrained" priority="0" />
+      <Item value="dataStreamSize" priority="0" />
+      <Item value="IEqualityComparer" priority="2" />
+      <Item value="namesComparer" priority="2" />
+      <Item value="_namesComparer" priority="13" />
+      <Item value="streamDefinition" priority="0" />
+      <Item value="newFolderName" priority="2" />
+      <Item value="newNode" priority="0" />
+      <Item value="FolderAlreadyExistsException`0" priority="4" />
+      <Item value="blockToStoreFolderNodeIn" priority="0" />
+      <Item value="folder2Node" priority="4" />
+      <Item value="folder1Node" priority="4" />
+      <Item value="foldersUndersFolder2" priority="0" />
+      <Item value="filesUndersFolder2" priority="1" />
+      <Item value="foldersUnderRoot" priority="0" />
+      <Item value="folder" priority="14" />
+      <Item value="String`0" priority="38" />
+      <Item value="path" priority="17" />
+      <Item value="RemoveEmptyEntries" priority="1" />
+      <Item value="pathParts" priority="7" />
+      <Item value="nodeCurrentlyBeingResolved" priority="5" />
+      <Item value="subFolders" priority="0" />
+      <Item value="subFolder" priority="1" />
+      <Item value="folderNameToResolve" priority="0" />
+      <Item value="lastName" priority="4" />
+      <Item value="allFilesUnderFolder" priority="0" />
+      <Item value="file" priority="9" />
+      <Item value="theFile" priority="1" />
+      <Item value="FileNotFoundException" priority="4" />
+      <Item value="FileNotFoundException`0" priority="7" />
+      <Item value="fullPathToFile" priority="7" />
+      <Item value="out" priority="35" />
+      <Item value="fullPathForFolder" priority="8" />
+      <Item value="folderName" priority="2" />
+      <Item value="FolderInfo`0" priority="18" />
+      <Item value="FileSystemArtifact`0" priority="0" />
+      <Item value="fullName" priority="0" />
+      <Item value="fullPath" priority="10" />
+      <Item value="ArgumentNullException" priority="7" />
+      <Item value="name" priority="0" />
+      <Item value="FileInfo" priority="8" />
+      <Item value="FolderInfo" priority="3" />
+      <Item value="fullPathForFile" priority="31" />
+      <Item value="FolderMetadata`0" priority="0" />
+      <Item value="file2Info" priority="0" />
+      <Item value="StringSplitOptions`0" priority="1" />
+      <Item value="char" priority="12" />
+      <Item value="DirectorySeparatorChar" priority="2" />
+      <Item value="Root" priority="2" />
+      <Item value="startIndex" priority="5" />
+      <Item value="Stack" priority="0" />
+      <Item value="Stack&lt;int&gt;" priority="1" />
+      <Item value="indexes" priority="4" />
+      <Item value="Ordinal" priority="1" />
+      <Item value="filePath" priority="14" />
+      <Item value="nodeIndex" priority="1" />
+      <Item value="fileToRemove" priority="4" />
+      <Item value="correctedStream" priority="10" />
+      <Item value="folderPath" priority="21" />
+      <Item value="folderToRemove" priority="6" />
+      <Item value="NodesResolver`0" priority="1" />
+      <Item value="_nodesResolver" priority="1" />
+      <Item value="_rootBlockIndex" priority="0" />
+      <Item value="freeBlockManager" priority="14" />
+      <Item value="_rootFolderPath" priority="1" />
+      <Item value="_directorySeparatorChar" priority="5" />
+      <Item value="FreeBlockManagerDiskWriting`0" priority="2" />
+      <Item value="nodesResolver" priority="1" />
+      <Item value="NodesResolver" priority="0" />
+      <Item value="StringComparer`0" priority="3" />
+      <Item value="IDataStreamStructureBuilder`0" priority="2" />
+      <Item value="numberOfBytesToMove" priority="1" />
+      <Item value="theNumberToTakeOutPosition" priority="0" />
+      <Item value="Constants`0" priority="18" />
+      <Item value="pathToValidate" priority="11" />
+      <Item value="rootPath" priority="1" />
+      <Item value="_rootPath" priority="11" />
+      <Item value="_illegalCharacters" priority="3" />
+      <Item value="HashSet&lt;char&gt;" priority="2" />
+      <Item value="illegalCharactersForPath" priority="2" />
+      <Item value="character" priority="5" />
+      <Item value="InvalidPathException" priority="7" />
+      <Item value="charactersSeenSoFar" priority="0" />
+      <Item value="illegalCharactersForNames" priority="1" />
+      <Item value="nameToValidate" priority="2" />
+      <Item value="IPathValidator`0" priority="5" />
+      <Item value="pathValidator" priority="12" />
+      <Item value="_pathValidator" priority="7" />
+      <Item value="characters" priority="1" />
+      <Item value="characterFound" priority="1" />
+      <Item value="ContainsAny`0" priority="0" />
+      <Item value="stringToCheck" priority="0" />
+      <Item value="charFound" priority="1" />
+      <Item value="foundTheChar" priority="0" />
+      <Item value="_illegalCharactersForPath" priority="0" />
+      <Item value="_illegalCharactersForNames" priority="0" />
+      <Item value="PathValidator`0" priority="10" />
+      <Item value="FileSystemArtifactNamesValidator`0" priority="5" />
+      <Item value="ContextBoundObject`0" priority="0" />
+      <Item value="nameValidator" priority="6" />
+      <Item value="validator" priority="4" />
+      <Item value="FileSystemArtifactNamesValidator" priority="3" />
+      <Item value="InvalidNameException`0" priority="5" />
+      <Item value="PathValidator" priority="0" />
+      <Item value="illegalChar" priority="0" />
+      <Item value="TestMethod" priority="4" />
+      <Item value="InvalidPathException`0" priority="27" />
+      <Item value="IFileSystemArtifactNamesValidator`0" priority="7" />
+      <Item value="directorySeparatorChar" priority="2" />
+      <Item value="_nameValidator" priority="3" />
+      <Item value="pathComponent" priority="0" />
+      <Item value="MockRepository`0" priority="2" />
+      <Item value="pathComponents" priority="3" />
+      <Item value="namesValidator" priority="7" />
+      <Item value="OrdinalIgnoreCase" priority="2" />
+      <Item value="equals" priority="0" />
+      <Item value="_nodeResolver" priority="19" />
+      <Item value="newFileName" priority="10" />
+      <Item value="_fileSystemNodeStorage" priority="0" />
+      <Item value="Path`0" priority="1" />
+      <Item value="parentFolderNode" priority="1" />
+      <Item value="files" priority="6" />
+      <Item value="CannotRenameFileException" priority="0" />
+      <Item value="FileAlreadyExistsException`0" priority="6" />
+      <Item value="firstBucketRemainingCapacity" priority="1" />
+      <Item value="Regex`0" priority="1" />
+      <Item value="_regex" priority="2" />
+      <Item value="Regex" priority="0" />
+      <Item value="WildcardToRegex`0" priority="0" />
+      <Item value="pattern" priority="3" />
+      <Item value="Match`0" priority="0" />
+      <Item value="stringToMatch" priority="1" />
+      <Item value="match" priority="0" />
+      <Item value="wildcard" priority="3" />
+      <Item value="Wildcard`0" priority="1" />
+      <Item value="ArgumentNullException`0" priority="10" />
+      <Item value="FileInfo`0" priority="12" />
+      <Item value="folderToLookIn" priority="2" />
+      <Item value="patternForNamesOfFiles" priority="2" />
+      <Item value="Wildcard" priority="1" />
+      <Item value="IDisposable`0" priority="5" />
+      <Item value="where" priority="1" />
+      <Item value="WeakReference`0" priority="1" />
+      <Item value="_referencedObject" priority="2" />
+      <Item value="objectToReference" priority="0" />
+      <Item value="WeakReference" priority="1" />
+      <Item value="Dictionary&lt;Guid,List&lt;WeakReference&lt;FolderContentsEnumerator&gt;&gt;&gt;" priority="0" />
+      <Item value="patternForMatchingNamesOfFiles" priority="1" />
+      <Item value="lock" priority="29" />
+      <Item value="_stateChangeCriticalSection" priority="16" />
+      <Item value="_enumeratedStructureHasChanged" priority="2" />
+      <Item value="folderContentsEnumerator" priority="4" />
+      <Item value="enumeratorRegistry" priority="0" />
+      <Item value="_disposed" priority="10" />
+      <Item value="ObjectDisposedException" priority="5" />
+      <Item value="callingFromFinalizer" priority="0" />
+      <Item value="GC`0" priority="13" />
+      <Item value="_enumeratorRegistry" priority="0" />
+      <Item value="_folderToEnumerateFilesIn" priority="2" />
+      <Item value="NodeResolver`0" priority="0" />
+      <Item value="HashSet&lt;Guid&gt;" priority="2" />
+      <Item value="IFilesAndFoldersProvider`0" priority="5" />
+      <Item value="filesAndFoldersProvider" priority="0" />
+      <Item value="_finishedEnumeration" priority="2" />
+      <Item value="_filesAndFoldersProvider" priority="4" />
+      <Item value="catch" priority="67" />
+      <Item value="CreateEnumerationNotPossibleException`0" priority="0" />
+      <Item value="_filesAndFoldersSeenSoFar" priority="4" />
+      <Item value="fileInfo" priority="33" />
+      <Item value="folderToSearchIn" priority="8" />
+      <Item value="_patternForMatchingNamesOfFiles" priority="0" />
+      <Item value="_wildcardForMatchingNamesOfFiles" priority="1" />
+      <Item value="SearchFileFromTreeTopRecursively`0" priority="0" />
+      <Item value="fileFromFolder" priority="1" />
+      <Item value="nextFile" priority="0" />
+      <Item value="FolderContentsEnumerator`0" priority="5" />
+      <Item value="IFolderEnumeratorRegistry`0" priority="4" />
+      <Item value="_foldersToIterators" priority="3" />
+      <Item value="KeyNotFoundException`0" priority="0" />
+      <Item value="allIteratorsForGivenFolder" priority="4" />
+      <Item value="enumeratorReference" priority="0" />
+      <Item value="Object`0" priority="3" />
+      <Item value="folderId" priority="1" />
+      <Item value="WeakReference&lt;FolderContentsEnumerator&gt;" priority="0" />
+      <Item value="List&lt;WeakReference&lt;FolderContentsEnumerator&gt;&gt;" priority="0" />
+      <Item value="FolderContentsEnumerator" priority="0" />
+      <Item value="FolderNode" priority="1" />
+      <Item value="folderInfo" priority="11" />
+      <Item value="mockRepository" priority="5" />
+      <Item value="FolderNotEmptyException`0" priority="3" />
+      <Item value="registryMock" priority="2" />
+      <Item value="LastCall`0" priority="1" />
+      <Item value="fileProviderStub" priority="0" />
+      <Item value="WeakReference&lt;IFolderEnumeratorRegistry&gt;" priority="0" />
+      <Item value="WeakReference&lt;IFilesAndFoldersProvider&gt;" priority="0" />
+      <Item value="NullReferenceException`0" priority="1" />
+      <Item value="fileEnumerator" priority="7" />
+      <Item value="List&lt;FileInfo&gt;" priority="4" />
+      <Item value="allFiles" priority="5" />
+      <Item value="_root" priority="3" />
+      <Item value="containingFolderPath" priority="1" />
+      <Item value="Exception`0" priority="13" />
+      <Item value="FoldersPassedWhileResolving" priority="0" />
+      <Item value="ReadOnlyCollection&lt;FolderNode&gt;" priority="0" />
+      <Item value="nodesPassedWhileResolvingFromRoot" priority="1" />
+      <Item value="resolvedNode" priority="1" />
+      <Item value="NodeResolvingResult" priority="5" />
+      <Item value="nodeResolvingResult" priority="8" />
+      <Item value="List&lt;FolderNode&gt;" priority="1" />
+      <Item value="nodesPassed" priority="0" />
+      <Item value="NodeResolvingResult&lt;FolderNode&gt;" priority="3" />
+      <Item value="NodeResolvingResult&lt;FileNode&gt;" priority="0" />
+      <Item value="resolvingResult" priority="0" />
+      <Item value="rootNode" priority="0" />
+      <Item value="newFileInfo" priority="0" />
+      <Item value="newFolderInfo" priority="0" />
+      <Item value="parentFolderResolvingResult" priority="7" />
+      <Item value="folderToRemoveFileFrom" priority="1" />
+      <Item value="allFilesInTheFolder" priority="0" />
+      <Item value="FolderNotFoundException" priority="5" />
+      <Item value="node" priority="2" />
+      <Item value="Folder`0" priority="1" />
+      <Item value="folderEnumeratorRegistry" priority="2" />
+      <Item value="FolderEnumeratorRegistry" priority="0" />
+      <Item value="_folderEnumeratorRegistry" priority="7" />
+      <Item value="abstract" priority="4" />
+      <Item value="ReadOnlyDataStream`0" priority="1" />
+      <Item value="ReadWriteDataStream`0" priority="1" />
+      <Item value="DataStreamReadable`0" priority="4" />
+      <Item value="DataStreamToReadableAdapter`0" priority="1" />
+      <Item value="IFolderEnumeratorUnregistrar`0" priority="0" />
+      <Item value="Dictionary&lt;Guid,ReaderWriterLockSlim&gt;" priority="0" />
+      <Item value="ReaderWriterLockSlim`0" priority="0" />
+      <Item value="locker" priority="0" />
+      <Item value="Monitor`0" priority="24" />
+      <Item value="AbandonedMutexException" priority="0" />
+      <Item value="ObjectDisposedException`0" priority="13" />
+      <Item value="ILockingManager`0" priority="2" />
+      <Item value="lockingManager" priority="5" />
+      <Item value="_lockingManager" priority="6" />
+      <Item value="lockId" priority="18" />
+      <Item value="_idOfLockBeingHeld" priority="0" />
+      <Item value="calledFromFinalizer" priority="0" />
+      <Item value="NullLockingManager`0" priority="2" />
+      <Item value="fileId" priority="1" />
+      <Item value="LockKind`0" priority="2" />
+      <Item value="_writers" priority="6" />
+      <Item value="_readers" priority="5" />
+      <Item value="_locksHeld" priority="2" />
+      <Item value="newLockId" priority="5" />
+      <Item value="FileLock`0" priority="0" />
+      <Item value="fileLock" priority="6" />
+      <Item value="FileLock" priority="0" />
+      <Item value="CannotAcquireLockException`0" priority="6" />
+      <Item value="Write" priority="1" />
+      <Item value="LockingManager" priority="0" />
+      <Item value="NullLockingManager" priority="0" />
+      <Item value="exception" priority="92" />
+      <Item value="Dictionary&lt;Guid,object&gt;" priority="0" />
+      <Item value="FileLockable`0" priority="4" />
+      <Item value="Dictionary&lt;Guid,FileLockable&gt;" priority="0" />
+      <Item value="_operationExecutionCriticalSection" priority="29" />
+      <Item value="_fileIdsToLocks" priority="5" />
+      <Item value="fileToLock" priority="3" />
+      <Item value="lockKind" priority="2" />
+      <Item value="fileLockable" priority="12" />
+      <Item value="idOfFileToLock" priority="2" />
+      <Item value="FileLockable" priority="1" />
+      <Item value="_locks" priority="3" />
+      <Item value="idOfLockedNode" priority="0" />
+      <Item value="_associatedNodes" priority="0" />
+      <Item value="idsOfAssociatedNodes" priority="0" />
+      <Item value="foldeNode" priority="0" />
+      <Item value="NodeLock`0" priority="2" />
+      <Item value="Dictionary&lt;Guid,NodeLock&gt;" priority="0" />
+      <Item value="_idsOfNodesToLocks" priority="4" />
+      <Item value="nodeId" priority="3" />
+      <Item value="nodeLockToAdjust" priority="3" />
+      <Item value="NodeLock" priority="0" />
+      <Item value="_lockIdsToLocks" priority="3" />
+      <Item value="nodeLock" priority="4" />
+      <Item value="_nodeIdsToLocks" priority="1" />
+      <Item value="nodeToCheck" priority="0" />
+      <Item value="NodeLockable`0" priority="0" />
+      <Item value="nodeLockable" priority="4" />
+      <Item value="NodeLockable" priority="0" />
+      <Item value="nguid" priority="2" />
+      <Item value="lockId1" priority="1" />
+      <Item value="extern" priority="1" />
+      <Item value="associatedFileLockId" priority="1" />
+      <Item value="LockAlreadyHeldException`0" priority="2" />
+      <Item value="LockNotFoundException" priority="2" />
+      <Item value="ArgumentException`0" priority="12" />
+      <Item value="_idsOfAssociatedNodes" priority="0" />
+      <Item value="nodeIds" priority="1" />
+      <Item value="CreateFakeFileNode`0" priority="1" />
+      <Item value="numberOfNodesToCreate" priority="0" />
+      <Item value="nodes" priority="1" />
+      <Item value="CreateFakeFolderNodes`0" priority="5" />
+      <Item value="nodeToLock" priority="0" />
+      <Item value="FakeNodesFactory`0" priority="6" />
+      <Item value="List`0" priority="0" />
+      <Item value="associatedFileLock" priority="0" />
+      <Item value="_idOfLockedNode" priority="1" />
+      <Item value="manager" priority="6" />
+      <Item value="lock1" priority="3" />
+      <Item value="lock2" priority="0" />
+      <Item value="associatedLockId" priority="1" />
+      <Item value="lock1Id" priority="0" />
+      <Item value="folderNodes" priority="0" />
+      <Item value="lock2Id" priority="0" />
+      <Item value="LockNotFoundException`0" priority="0" />
+      <Item value="IFileSystemLockReleaseManager`0" priority="2" />
+      <Item value="structureBuilderStub" priority="0" />
+      <Item value="lockingManagerMock" priority="2" />
+      <Item value="FileLockedException" priority="0" />
+      <Item value="newFile" priority="4" />
+      <Item value="FileLockedException`0" priority="5" />
+      <Item value="List&lt;byte&gt;" priority="1" />
+      <Item value="relativelyInterestingData" priority="3" />
+      <Item value="threadException" priority="0" />
+      <Item value="dataStream1" priority="2" />
+      <Item value="threadOneBuffer" priority="1" />
+      <Item value="anyThreadException" priority="2" />
+      <Item value="thread1" priority="2" />
+      <Item value="thread2" priority="1" />
+      <Item value="folder5Node" priority="2" />
+      <Item value="List&lt;FolderInfo&gt;" priority="0" />
+      <Item value="folder3Node" priority="0" />
+      <Item value="folder4Node" priority="0" />
+      <Item value="as" priority="7" />
+      <Item value="streamOwningNodeAsFileNode" priority="0" />
+      <Item value="_lastModificationTimeUtc" priority="0" />
+      <Item value="CannotResolvePathException`0" priority="2" />
+      <Item value="CannotResolvePathException" priority="0" />
+      <Item value="DoesPathPointToRoot`0" priority="1" />
+      <Item value="lastPartOfFullPath" priority="0" />
+      <Item value="updatedFileInfo" priority="0" />
+      <Item value="blockIndexArgumentName" priority="0" />
+      <Item value="NumberOfBlocks" priority="0" />
+      <Item value="capacitiesOfIndexes" priority="1" />
+      <Item value="enumerable" priority="0" />
+      <Item value="checked" priority="0" />
+      <Item value="OverflowException`0" priority="1" />
+      <Item value="SerializationException`0" priority="0" />
+      <Item value="exceptionToWrap" priority="0" />
+      <Item value="ConstructCannotWriteNodeException`0" priority="0" />
+      <Item value="ConstructGenericCannotReadNodeException`0" priority="0" />
+      <Item value="CannotReadDiskStructureException`0" priority="0" />
+      <Item value="Action`0" priority="1" />
+      <Item value="TResult`0" priority="0" />
+      <Item value="RunUsualDeserializationCodeWrappingExceptions`1" priority="0" />
+      <Item value="DeserializeObjectAtBlock`1" priority="0" />
+      <Item value="CannotWriteNodeException`0" priority="0" />
+      <Item value="Thread`0" priority="1" />
+      <Item value="numberOfItemsToStore" priority="3" />
+      <Item value="chunkSize" priority="0" />
+      <Item value="FolderNotFoundException`0" priority="27" />
+      <Item value="folderToGetSubfoldersOf" priority="1" />
+      <Item value="System" priority="4" />
+      <Item value="BlockReferenceEditor`0" priority="1" />
+      <Item value="blockReferenceEditor" priority="3" />
+      <Item value="BlockReferenceEditor" priority="0" />
+      <Item value="fileSystemNodeStorage" priority="2" />
+      <Item value="bufferToReadBytesInto" priority="1" />
+      <Item value="numberOfBytesRead" priority="5" />
+      <Item value="numberOfBytesReadable" priority="1" />
+      <Item value="largeArray" priority="0" />
+      <Item value="maximumSize" priority="0" />
+      <Item value="MaximumFileSizeReachedException" priority="0" />
+      <Item value="MaximumFileSizeReachedException`0" priority="3" />
+      <Item value="MaximumFileCountReachedException" priority="1" />
+      <Item value="dataStreamStructureBuilder" priority="7" />
+      <Item value="TestDataStreamStructureBuilder`0" priority="0" />
+      <Item value="collaborators" priority="15" />
+      <Item value="nodeResolver" priority="2" />
+      <Item value="IFileSystemNodeStorage`0" priority="0" />
+      <Item value="diskStructureEnumerator" priority="1" />
+      <Item value="ReadOnlyCollection&lt;int&gt;" priority="3" />
+      <Item value="freeBlockCounter" priority="2" />
+      <Item value="numberOfBytesFree" priority="4" />
+      <Item value="numberOfFreeBlocksAllocated" priority="1" />
+      <Item value="numberOfBlocksCommitted" priority="6" />
+      <Item value="CreateCollaboratorsForTestingDataStreams`0" priority="0" />
+      <Item value="AllCollaborators`0" priority="1" />
+      <Item value="CreateAllCollaborators`0" priority="3" />
+      <Item value="exceptionCaught" priority="3" />
+      <Item value="Environment`0" priority="6" />
+      <Item value="Random`0" priority="1" />
+      <Item value="Random" priority="1" />
+      <Item value="random" priority="2" />
+      <Item value="arrayToFill" priority="0" />
+      <Item value="testArrayCapacity" priority="1" />
+      <Item value="testArray" priority="3" />
+      <Item value="GetAllFilesFrom`0" priority="0" />
+      <Item value="filesUnderRoot" priority="1" />
+      <Item value="compositeIndex" priority="2" />
+      <Item value="numberOfBlocksToAdd" priority="3" />
+      <Item value="allBlocksAcquired" priority="1" />
+      <Item value="lastSingleIndirectBlockSize" priority="2" />
+      <Item value="doubleIndirectBlockCapacity" priority="0" />
+      <Item value="_singleIndirectBlockCapacity" priority="2" />
+      <Item value="ToList`1" priority="2" />
+      <Item value="firstBlockSize" priority="2" />
+      <Item value="calculator" priority="2" />
+      <Item value="sizes" priority="4" />
+      <Item value="isLastDoubleIndirectionBlock" priority="0" />
+      <Item value="_sizes" priority="5" />
+      <Item value="AddressingBlockSizesCalculator`0" priority="1" />
+      <Item value="AddressingBlockSizesCalculator" priority="0" />
+      <Item value="_doubleIndirectBlockCapacity" priority="0" />
+      <Item value="AddressingSystemBlockSizes`0" priority="1" />
+      <Item value="AddressingSystemBlockSizes" priority="1" />
+      <Item value="OverflowException" priority="0" />
+      <Item value="doubleIndirectBlockSize" priority="2" />
+      <Item value="_addressingSystemSizesOfLastBlocks" priority="0" />
+      <Item value="maximumDiskSizeInBytes" priority="0" />
+      <Item value="MaximumDiskSizeInBytes" priority="1" />
+      <Item value="numberOfBlocksToRemove" priority="0" />
+      <Item value="oldAddressingSystemBlockSizes" priority="2" />
+      <Item value="newAddressingSystemBlockSizes" priority="4" />
+      <Item value="currentSize" priority="2" />
+      <Item value="Ignore" priority="0" />
+      <Item value="numberOfBlocksNeededToStoreNewData" priority="0" />
+      <Item value="BlockNotOccupiedException`0" priority="0" />
+      <Item value="numberOfZeroesWritten" priority="2" />
+      <Item value="zeroesLeft" priority="1" />
+      <Item value="freeBlocksCount" priority="2" />
+      <Item value="_freeBlockCount" priority="3" />
+      <Item value="amountOfFreeSpace" priority="2" />
+      <Item value="foundTheOne" priority="0" />
+      <Item value="numberOfReferencesFound" priority="1" />
+      <Item value="InconsistentDataDetectedException" priority="0" />
+      <Item value="FileSystemArtifactViewModel`0" priority="9" />
+      <Item value="ReadWrite" priority="0" />
+      <Item value="None" priority="0" />
+      <Item value="CurrentFolderContents" priority="4" />
+      <Item value="_virtualSystemCurrentlyBrowsed" priority="15" />
+      <Item value="_currentFolderPath" priority="6" />
+      <Item value="FileViewModel" priority="0" />
+      <Item value="FolderViewModel`0" priority="7" />
+      <Item value="filesProvider" priority="0" />
+      <Item value="Application" priority="0" />
+      <Item value="application" priority="4" />
+      <Item value="browserWindowViewModel" priority="10" />
+      <Item value="BrowserWindowViewModel" priority="2" />
+      <Item value="assembly" priority="0" />
+      <Item value="window" priority="4" />
+      <Item value="Center" priority="0" />
+      <Item value="BrowserMainWindow`0" priority="0" />
+      <Item value="viewModel" priority="19" />
+      <Item value="_viewModel" priority="29" />
+      <Item value="openFileDialog" priority="6" />
+      <Item value="OpenFileDialog" priority="0" />
+      <Item value="gotTheFile" priority="1" />
+      <Item value="ObservableCollection&lt;FileSystemArtifactViewModel&gt;" priority="0" />
+      <Item value="PropertyChangedEventArgs" priority="0" />
+      <Item value="BrowserWindowViewModel`0" priority="2" />
+      <Item value="virtualSystemCurrentlyBrowsed" priority="0" />
+      <Item value="applicationController" priority="2" />
+      <Item value="_applicationController" priority="10" />
+      <Item value="newVirtualFileSystem" priority="5" />
+      <Item value="BrowserHubWindowViewModel`0" priority="0" />
+      <Item value="BrowserWindow`0" priority="2" />
+      <Item value="browserWindow" priority="1" />
+      <Item value="BrowserWindow" priority="0" />
+      <Item value="BrowserApplicationController`0" priority="0" />
+      <Item value="BrowserHubWindow`0" priority="0" />
+      <Item value="IApplicationController`0" priority="1" />
+      <Item value="Dictionary&lt;BrowserWindowViewModel,BrowserWindow&gt;" priority="0" />
+      <Item value="_browserViewModelsToWindows" priority="3" />
+      <Item value="ref" priority="0" />
+      <Item value="_desiredCurrentFolderPath" priority="0" />
+      <Item value="TwoWay" priority="0" />
+      <Item value="folders" priority="2" />
+      <Item value="IComparer" priority="2" />
+      <Item value="List&lt;FileSystemArtifactViewModel&gt;" priority="0" />
+      <Item value="viewModels" priority="7" />
+      <Item value="_viewModelSortingComparer" priority="0" />
+      <Item value="artifact1" priority="4" />
+      <Item value="artifact2" priority="3" />
+      <Item value="is" priority="2" />
+      <Item value="FileViewModel`0" priority="4" />
+      <Item value="artifact1AsFolder" priority="0" />
+      <Item value="artifact2IsAFolder" priority="3" />
+      <Item value="artifact1IsAFolder" priority="3" />
+      <Item value="_viewModelComparer" priority="0" />
+      <Item value="ViewModelNameAndTypeSortingComparer`0" priority="0" />
+      <Item value="userInteractionSystem" priority="2" />
+      <Item value="IUserInteractionSystem`0" priority="3" />
+      <Item value="UserInteractionSystem`0" priority="0" />
+      <Item value="UserInteractionSystem" priority="0" />
+      <Item value="_userInteractionSystem" priority="13" />
+      <Item value="fullPathForSystemContainer" priority="1" />
+      <Item value="Stream`0" priority="2" />
+      <Item value="allCollaborators" priority="7" />
+      <Item value="fileSystemStream" priority="1" />
+      <Item value="FreeSpaceStartingBlockIndex" priority="1" />
+      <Item value="VirtualDiskFormatter`0" priority="4" />
+      <Item value="_backingStream" priority="0" />
+      <Item value="ThrowIfDisposed`0" priority="4" />
+      <Item value="_closing" priority="1" />
+      <Item value="override" priority="2" />
+      <Item value="closeDownTheWindow" priority="0" />
+      <Item value="_controllerStateCriticalSection" priority="0" />
+      <Item value="freeSpaceBitmapStore" priority="3" />
+      <Item value="_freeSpaceBitmapStore" priority="0" />
+      <Item value="_freeSpaceBitArrayBuffer" priority="0" />
+      <Item value="FreeSpaceBitmapStore`0" priority="2" />
+      <Item value="FreeSpaceBitmapStore" priority="2" />
+      <Item value="bitmapStore" priority="4" />
+      <Item value="FreeBlockManagerBitArrayBased`0" priority="3" />
+      <Item value="FreeBlockManagerBitArrayBased" priority="1" />
+      <Item value="formatter" priority="1" />
+      <Item value="VirtualDiskFormatter" priority="0" />
+      <Item value="mapBytes" priority="1" />
+      <Item value="freeSpaceBitmapLength" priority="0" />
+      <Item value="_freeSpaceMapStartingBlock" priority="2" />
+      <Item value="_freeSpaceBitmapLength" priority="0" />
+      <Item value="freeSpaceLengthInBytes" priority="0" />
+      <Item value="MethodAccessException`0" priority="0" />
+      <Item value="freeSpaceBitmapSize" priority="1" />
+      <Item value="_freeSpaceBitmapSize" priority="0" />
+      <Item value="bitmapSize" priority="5" />
+      <Item value="store" priority="0" />
+      <Item value="numberOfBlocksNeededToStoreTheMap" priority="0" />
+      <Item value="freeSpaceMapStartingBlock" priority="1" />
+      <Item value="freeSpaceMapLength" priority="2" />
+      <Item value="_bufferForBitmapCopies" priority="3" />
+      <Item value="freeBlockManagerBitArrayBased" priority="1" />
+      <Item value="_freeSpaceMapLength" priority="0" />
+      <Item value="freeSpaceMapArray" priority="1" />
+      <Item value="freeSpaceManager" priority="0" />
+      <Item value="enum" priority="0" />
+      <Item value="newArtifactViewModel" priority="9" />
+      <Item value="NewArtifactView`0" priority="0" />
+      <Item value="newArtifactView" priority="2" />
+      <Item value="NewArtifactView" priority="0" />
+      <Item value="NewArtifactViewModel" priority="1" />
+      <Item value="gotTheName" priority="0" />
+      <Item value="gotIt" priority="3" />
+      <Item value="combinedPath" priority="5" />
+      <Item value="Folder" priority="0" />
+      <Item value="Location" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="ArtifactKind" priority="0" />
+      <Item value="ArtifactKind`0" priority="0" />
+      <Item value="DialogResult" priority="0" />
+      <Item value="TypedReference`0" priority="0" />
+      <Item value="EnumToBooleanConverter`0" priority="0" />
+      <Item value="shouldCheckBoxBeChecked" priority="0" />
+      <Item value="gotNewName" priority="0" />
+      <Item value="e" priority="4" />
+      <Item value="_directorySeparator" priority="4" />
+      <Item value="path1" priority="6" />
+      <Item value="uint" priority="2" />
+      <Item value="_maximumCharacterCount" priority="1" />
+      <Item value="InvalidNameException" priority="0" />
+      <Item value="fileSystemArtifactNamesValidator" priority="0" />
+      <Item value="_fileSystemArtifactNamesValidator" priority="0" />
+      <Item value="path2" priority="4" />
+      <Item value="pathBuilder" priority="17" />
+      <Item value="PathBuilder`0" priority="5" />
+      <Item value="PathBuilder" priority="1" />
+      <Item value="_pathBuilder" priority="7" />
+      <Item value="DesiredCurrentFolderPath" priority="2" />
+      <Item value="_fileSystemArtifactNameComparer" priority="0" />
+      <Item value="CurrentFolderPath" priority="1" />
+      <Item value="_currentlySelectedArtifact" priority="0" />
+      <Item value="visitor" priority="7" />
+      <Item value="IAcceptorForFileSystemArtifactVisitor`0" priority="0" />
+      <Item value="IFileSystemArtifactViewModelVisitor`0" priority="0" />
+      <Item value="_deletingVisitor" priority="0" />
+      <Item value="_fileSystem" priority="8" />
+      <Item value="fileViewmodel" priority="0" />
+      <Item value="prefix" priority="0" />
+      <Item value="OK" priority="1" />
+      <Item value="stuffDeletingVisitor" priority="0" />
+      <Item value="_namesValidator" priority="2" />
+      <Item value="_newName" priority="0" />
+      <Item value="NewArtifactNameView`0" priority="1" />
+      <Item value="_isValid" priority="1" />
+      <Item value="IsValid" priority="0" />
+      <Item value="EventRaiser`0" priority="5" />
+      <Item value="propertyName" priority="0" />
+      <Item value="newArtifactNameViewModel" priority="2" />
+      <Item value="NewArtifactNameViewModel" priority="0" />
+      <Item value="artifactNamesValidator" priority="0" />
+      <Item value="_artifactNamesValidator" priority="2" />
+      <Item value="NewArtifactNameViewModel`0" priority="0" />
+      <Item value="NewName" priority="0" />
+      <Item value="fileViewModel" priority="2" />
+      <Item value="folderViewModel" priority="5" />
+      <Item value="ArtifactRenamingVisitor`0" priority="0" />
+      <Item value="stuffRenamingVisitor" priority="0" />
+      <Item value="RelativeSource`0" priority="0" />
+      <Item value="IDataErrorInfo`0" priority="0" />
+      <Item value="Dictionary&lt;string,string&gt;" priority="1" />
+      <Item value="_namesOfPropertiesToErrors" priority="2" />
+      <Item value="columnName" priority="1" />
+      <Item value="PropertyChanged" priority="4" />
+      <Item value="INotifyPropertyChanged`0" priority="2" />
+      <Item value="MaximumFileCountReachedException`0" priority="4" />
+      <Item value="newArtifactCreator" priority="1" />
+      <Item value="NewArtifactViewModel`0" priority="0" />
+      <Item value="INewArtifactCreator`0" priority="0" />
+      <Item value="_newArtifactCreator" priority="0" />
+      <Item value="NewArtifactCreator`0" priority="0" />
+      <Item value="selectedArtifactAsFolder" priority="1" />
+      <Item value="valueAsFolder" priority="0" />
+      <Item value="valueAsFile" priority="0" />
+      <Item value="dispatcher" priority="4" />
+      <Item value="_dispatcher" priority="3" />
+      <Item value="virtualFileSystemFactory" priority="0" />
+      <Item value="IOException`0" priority="3" />
+      <Item value="UnauthorizedAccessException`0" priority="2" />
+      <Item value="FileSystemCreationFailedException" priority="1" />
+      <Item value="WrapStreamCreationException`0" priority="0" />
+      <Item value="desiredSizeInBytes" priority="0" />
+      <Item value="InconsistentDataDetectedException`0" priority="4" />
+      <Item value="FileSystemCreationFailedException`0" priority="3" />
+      <Item value="VirtualDiskCreationFailedException`0" priority="0" />
+      <Item value="pathToFolderThatMustContainTheFile" priority="5" />
+      <Item value="currentParentFolder" priority="4" />
+      <Item value="filesNewHome" priority="2" />
+      <Item value="allFilesInDestinationFolder" priority="0" />
+      <Item value="_blockReferenceListsEditor" priority="0" />
+      <Item value="fileToMove" priority="0" />
+      <Item value="currentPathForFile" priority="3" />
+      <Item value="newParentNodeResolvingResult" priority="2" />
+      <Item value="folderA" priority="6" />
+      <Item value="fileA" priority="5" />
+      <Item value="folderC" priority="3" />
+      <Item value="fileB" priority="2" />
+      <Item value="newFolder" priority="4" />
+      <Item value="currentPathForFolder" priority="5" />
+      <Item value="pathToFolderThatWillContainTheFolderMoved" priority="4" />
+      <Item value="folderBUnderRoot" priority="0" />
+      <Item value="enumeratorA" priority="0" />
+      <Item value="FolderLockedException`0" priority="0" />
+      <Item value="tolstoysFolder" priority="0" />
+      <Item value="folderB" priority="1" />
+      <Item value="folderBMoved" priority="1" />
+      <Item value="fullPathForFileToBeCopied" priority="4" />
+      <Item value="writingStream" priority="0" />
+      <Item value="newPathThatWillPointToTheCopyOfFile" priority="6" />
+      <Item value="guidByteArray" priority="1" />
+      <Item value="greatGatsby" priority="3" />
+      <Item value="interestingData" priority="8" />
+      <Item value="interestingDataAsReadFromFile" priority="1" />
+      <Item value="byteArray" priority="1" />
+      <Item value="freeSpaceBeforeAttemptingToCopy" priority="0" />
+      <Item value="file1" priority="0" />
+      <Item value="managedToExitTheMonitor" priority="2" />
+      <Item value="_canStartIndirectlyLockingOperation" priority="0" />
+      <Item value="long" priority="0" />
+      <Item value="ManualResetEvent`0" priority="1" />
+      <Item value="ManualResetEvent" priority="1" />
+      <Item value="_indirectlyLockingTasksRunning" priority="2" />
+      <Item value="gotToRendezvousWithRunningTasks" priority="2" />
+      <Item value="_allIndirectlyLockingTasksFinished" priority="0" />
+      <Item value="releasedTheMonitor" priority="0" />
+      <Item value="checkIfDisposed" priority="0" />
+      <Item value="originalFilePath" priority="0" />
+      <Item value="FileCopyResult`0" priority="0" />
+      <Item value="error" priority="4" />
+      <Item value="copiedFile" priority="0" />
+      <Item value="Error" priority="0" />
+      <Item value="FileCopyTaskResult`0" priority="2" />
+      <Item value="allFilesToBeCopied" priority="2" />
+      <Item value="filesFromFolder" priority="0" />
+      <Item value="fullPathForFolderToCopy" priority="6" />
+      <Item value="copyTaskResults" priority="2" />
+      <Item value="List&lt;FileCopyTaskResult&gt;" priority="0" />
+      <Item value="FileCopyTaskResult" priority="1" />
+      <Item value="fileCopied" priority="0" />
+      <Item value="copiedFileInfo" priority="0" />
+      <Item value="newPathForFolderAndItsContents" priority="2" />
+      <Item value="relativePathToFile" priority="0" />
+      <Item value="allFolders" priority="1" />
+      <Item value="newFolders" priority="1" />
+      <Item value="subfoldersToCreate" priority="0" />
+      <Item value="newFolderPath" priority="0" />
+      <Item value="filesToCopy" priority="0" />
+      <Item value="newFolderPathRelative" priority="1" />
+      <Item value="destinationPathForFolderAndItsContents" priority="2" />
+      <Item value="copyingResults" priority="0" />
+      <Item value="fileD" priority="0" />
+      <Item value="fileCopyTaskResult" priority="2" />
+      <Item value="CreateDefaultFileSystem`0" priority="0" />
+      <Item value="Thread" priority="0" />
+      <Item value="copyingIsAboutToStart" priority="1" />
+      <Item value="di" priority="6" />
+      <Item value="DirectoryInfo" priority="0" />
+      <Item value="ObjectImportable`0" priority="0" />
+      <Item value="FolderImportable`0" priority="8" />
+      <Item value="FileImportable`0" priority="3" />
+      <Item value="DirectoryInfo`0" priority="1" />
+      <Item value="directoryInfo" priority="2" />
+      <Item value="List&lt;FolderImportable&gt;" priority="0" />
+      <Item value="FolderImportable" priority="0" />
+      <Item value="folderImportable" priority="3" />
+      <Item value="CreateFileSystemObjectStructureFromFolder`0" priority="0" />
+      <Item value="DirectoryNotFoundException`0" priority="2" />
+      <Item value="PathTooLongException`0" priority="0" />
+      <Item value="in" priority="1" />
+      <Item value="subfolder" priority="2" />
+      <Item value="IImportingVisitor`0" priority="1" />
+      <Item value="_destinationFolder" priority="1" />
+      <Item value="fileContentsBufferFactory" priority="0" />
+      <Item value="_fileContentsBufferFactory" priority="0" />
+      <Item value="contentsEnumerator" priority="0" />
+      <Item value="fileStream" priority="1" />
+      <Item value="_fileStream" priority="3" />
+      <Item value="_bufferSize" priority="2" />
+      <Item value="bufferOfTheRightSize" priority="1" />
+      <Item value="RealFileContentsEnumerator`0" priority="0" />
+      <Item value="Open" priority="0" />
+      <Item value="Read" priority="1" />
+      <Item value="virtualDestinationFolder" priority="5" />
+      <Item value="RealFileContentsBufferFactory`0" priority="0" />
+      <Item value="dataStreamReadable" priority="0" />
+      <Item value="_dataStreamReadable" priority="3" />
+      <Item value="fullPathForFolderToGetRelativePathAgainst" priority="2" />
+      <Item value="fullPathToTurnIntoRelative" priority="0" />
+      <Item value="_targetFileSystem" priority="2" />
+      <Item value="sourceVirtualSystem" priority="7" />
+      <Item value="_nameComparer" priority="1" />
+      <Item value="folderBrowserDialog" priority="2" />
+      <Item value="FolderBrowserDialog" priority="0" />
+      <Item value="ShowNewFolderButton" priority="0" />
+      <Item value="dialogResult" priority="0" />
+      <Item value="folderPicked" priority="3" />
+      <Item value="Description" priority="0" />
+      <Item value="FileAddressableObject`0" priority="0" />
+      <Item value="FileAddressable`0" priority="1" />
+      <Item value="FileAddressable" priority="1" />
+      <Item value="FileTaskResult`0" priority="3" />
+      <Item value="List&lt;FileTaskResult&gt;" priority="0" />
+      <Item value="CreateGenericCannotGetFileContentsException`0" priority="0" />
+      <Item value="CannotGetFileContentsException`0" priority="2" />
+      <Item value="_fileTaskResults" priority="1" />
+      <Item value="FileTaskResult" priority="0" />
+      <Item value="AddNewErrorToFileTaskResults`0" priority="0" />
+      <Item value="MaximumFolderCountReachedException`0" priority="0" />
+      <Item value="CannotGetImportedFolderStructureException`0" priority="2" />
+      <Item value="FileSystemTaskResult`0" priority="3" />
+      <Item value="FolderAddressable`0" priority="1" />
+      <Item value="results" priority="4" />
+      <Item value="Enter" priority="0" />
+      <Item value="Return" priority="0" />
+      <Item value="Dictionary&lt;string,VirtualFileSystem&gt;" priority="0" />
+      <Item value="_filesToFileSystems" priority="8" />
+      <Item value="fullFilePath" priority="2" />
+      <Item value="Dictionary&lt;string,int&gt;" priority="0" />
+      <Item value="_filesToInstanceCounter" priority="6" />
+      <Item value="fullFilePathUpperCased" priority="4" />
+      <Item value="fileSystemId" priority="4" />
+      <Item value="keyValuePair" priority="0" />
+      <Item value="keyValuePairWithSystemInQuestion" priority="1" />
+      <Item value="VirtualFileSystemInstanceManager" priority="0" />
+      <Item value="_virtualFileSystemInstanceManager" priority="4" />
+      <Item value="virtualFileSystemInstanceManager" priority="0" />
+      <Item value="CreateGenericStructureCreationError`0" priority="0" />
+      <Item value="DisplayBrowserViewModel`0" priority="0" />
+      <Item value="NonSerialized" priority="0" />
+      <Item value="ReadOnlyObservableCollection" priority="0" />
+      <Item value="TaskViewModel`0" priority="9" />
+      <Item value="ReadOnlyObservableCollection&lt;TaskViewModel&gt;" priority="0" />
+      <Item value="ObservableCollection&lt;TaskViewModel&gt;" priority="0" />
+      <Item value="_tasks" priority="5" />
+      <Item value="TaskViewModel" priority="2" />
+      <Item value="OneWay" priority="0" />
+      <Item value="NoResize" priority="0" />
+      <Item value="ObservableCollection&lt;TaskResultViewModel&gt;" priority="0" />
+      <Item value="resultsOfTasks" priority="0" />
+      <Item value="TaskResultViewModel`0" priority="4" />
+      <Item value="_results" priority="2" />
+      <Item value="TaskResultView`0" priority="0" />
+      <Item value="taskResultView" priority="1" />
+      <Item value="TaskResultView" priority="0" />
+      <Item value="task" priority="0" />
+      <Item value="IAsyncResult`0" priority="1" />
+      <Item value="_task" priority="1" />
+      <Item value="FileSystemTask`0" priority="0" />
+      <Item value="Id" priority="0" />
+      <Item value="_cancelled" priority="2" />
+      <Item value="_pieceOfCodeToRun" priority="0" />
+      <Item value="percentage" priority="8" />
+      <Item value="event" priority="0" />
+      <Item value="ProgressChangedEventArgs`0" priority="0" />
+      <Item value="taskToken" priority="19" />
+      <Item value="_taskToken" priority="5" />
+      <Item value="ImportFolderFromRealFileSystem`0" priority="0" />
+      <Item value="NullFileSystemCancellableTaskToken`0" priority="6" />
+      <Item value="ImportFolderFromVirtualFileSystem`0" priority="0" />
+      <Item value="countOfItems" priority="0" />
+      <Item value="_numberOfItemsVisited" priority="1" />
+      <Item value="_percentage" priority="0" />
+      <Item value="_totalNumberOfItemsToVisit" priority="0" />
+      <Item value="folderAddressable" priority="0" />
+      <Item value="FileSystemCancellableTaskToken`0" priority="2" />
+      <Item value="FileSystemCancellableTaskToken" priority="1" />
+      <Item value="taskViewModel" priority="8" />
+      <Item value="result" priority="4" />
+      <Item value="TaskResultViewModel" priority="2" />
+      <Item value="_diskAccessCriticalSection" priority="4" />
+      <Item value="List&lt;TaskResultViewModel&gt;" priority="1" />
+      <Item value="FolderTaskResult`0" priority="2" />
+      <Item value="resultAsFolderResult" priority="5" />
+      <Item value="resultAsFileResult" priority="0" />
+      <Item value="folderTaskResult" priority="5" />
+      <Item value="Button`0" priority="0" />
+      <Item value="sender" priority="0" />
+      <Item value="senderAsButton" priority="0" />
+      <Item value="viewModelContainer" priority="0" />
+      <Item value="ExtractTaskViewModel`0" priority="0" />
+      <Item value="_completed" priority="1" />
+      <Item value="_canCancel" priority="0" />
+      <Item value="folderPathInDestinationSystem" priority="0" />
+      <Item value="nodeAsFileNode" priority="1" />
+      <Item value="CleanUpCorruptedData`0" priority="0" />
+      <Item value="Streaming" priority="0" />
+      <Item value="freeSpaceBeforeAnything" priority="0" />
+      <Item value="dataRead" priority="1" />
+      <Item value="bytesToRead" priority="3" />
+      <Item value="ital" priority="0" />
+      <Item value="readArrayPosition" priority="1" />
+      <Item value="Create" priority="0" />
+      <Item value="currentArrayOffset" priority="0" />
+      <Item value="TaskCancelledException`0" priority="2" />
+      <Item value="_userInteractionService" priority="4" />
+      <Item value="sourceFileSystem" priority="2" />
+      <Item value="ThreadPool`0" priority="4" />
+      <Item value="virtualFolderPath" priority="0" />
+      <Item value="VirtualFolderSelectionView`0" priority="0" />
+      <Item value="view" priority="1" />
+      <Item value="VirtualFolderSelectionView" priority="0" />
+      <Item value="VirtualFolderPathViewModel" priority="0" />
+      <Item value="VirtualFolderPathViewModel`0" priority="1" />
+      <Item value="_movingVisitor" priority="0" />
+      <Item value="ArtifactMovingVisitor`0" priority="0" />
+      <Item value="stuffMovingVisitor" priority="0" />
+      <Item value="_stateProtectingCriticalSection" priority="2" />
+      <Item value="createTestFile" priority="0" />
+      <Item value="TaskCancelledException" priority="0" />
+      <Item value="numberOfByterWritten" priority="1" />
+      <Item value="totalNumberOfBytesToWrite" priority="0" />
+      <Item value="newPercentage" priority="4" />
+      <Item value="destinationPath" priority="0" />
+      <Item value="ArtifactImporter`0" priority="0" />
+      <Item value="ArtifactImporter" priority="0" />
+      <Item value="_artifactImporter" priority="0" />
+      <Item value="currentFolderPath" priority="0" />
+      <Item value="CreateViewModelsFromResults`0" priority="0" />
+      <Item value="_taskViewModel" priority="2" />
+      <Item value="pathViewModel" priority="1" />
+      <Item value="MarkTaskViewModelAsCompleted`0" priority="0" />
+      <Item value="artifactCopyingVisitor" priority="3" />
+      <Item value="ArtifactCopyingVisitor" priority="0" />
+      <Item value="MessageBox`0" priority="2" />
+      <Item value="MessageBoxResult`0" priority="0" />
+      <Item value="YesNo" priority="0" />
+      <Item value="IFileSystemCancellableTaskToken`0" priority="1" />
+      <Item value="destinationFileSystem" priority="0" />
+      <Item value="TaskTokenPartialWrapper" priority="0" />
+      <Item value="tokenWrapper" priority="0" />
+      <Item value="filesCopied" priority="1" />
+      <Item value="valueAsBool" priority="1" />
+      <Item value="OneTime" priority="1" />
+      <Item value="folderToEnumerateFilesIn" priority="1" />
+      <Item value="idsOfFolderUnderGivenOne" priority="1" />
+      <Item value="positionAfterWritingItAll" priority="1" />
+      <Item value="_pattern" priority="0" />
+      <Item value="isNewValueEmpty" priority="0" />
+      <Item value="FileSearchPatternViewModel`0" priority="1" />
+      <Item value="FileSearchPatternViewModel" priority="1" />
+      <Item value="gotEmAll" priority="2" />
+      <Item value="TitledStringListView`0" priority="0" />
+      <Item value="titledStringListView" priority="1" />
+      <Item value="TitledStringListView" priority="0" />
+      <Item value="TitledStringListViewModel" priority="0" />
+      <Item value="title" priority="0" />
+      <Item value="strings" priority="0" />
+      <Item value="_currentFolder" priority="8" />
+      <Item value="verbForPuttingIntoExceptionMessageTemplate" priority="0" />
+      <Item value="filesFromSameFolder" priority="0" />
+      <Item value="FileManager`0" priority="1" />
+      <Item value="_fileManager" priority="5" />
+      <Item value="FolderManager`0" priority="1" />
+      <Item value="_folderManager" priority="3" />
+      <Item value="fileManager" priority="1" />
+      <Item value="FileManager" priority="0" />
+      <Item value="folderManager" priority="1" />
+      <Item value="FolderManager" priority="0" />
+      <Item value="_numberOfOutstandingTasks" priority="4" />
+      <Item value="_taskCounter" priority="13" />
+      <Item value="TaskCounter" priority="2" />
+      <Item value="TaskCounter`0" priority="1" />
+      <Item value="taskCounter" priority="3" />
+      <Item value="MessageBoxButton`0" priority="0" />
+      <Item value="_filesOfCurrentFolder" priority="3" />
+      <Item value="_subfoldersOfCurrentFolder" priority="1" />
+      <Item value="parent" priority="0" />
+      <Item value="fileOrFolderName" priority="0" />
+      <Item value="parentPath" priority="3" />
+      <Item value="IsRefreshEnabled" priority="1" />
+      <Item value="tryf" priority="0" />
+      <Item value="_isSearchEnabled" priority="0" />
+      <Item value="Delegate`0" priority="0" />
+      <Item value="IDispatcher`0" priority="0" />
+      <Item value="Dispatcher" priority="0" />
+      <Item value="streamLength" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.NodeDescriptors.DataStream">
+      <Item value="StreamLengthInBytes" priority="5" />
+      <Item value="ContentsBlockIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.CompositeIndex">
+      <Item value="DecimalValue" priority="0" />
+      <Item value="Value" priority="7" />
+      <Item value="Decrement`0" priority="0" />
+      <Item value="Increment`0" priority="0" />
+      <Item value="Capacity" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IntegerArrayNavigator">
+      <Item value="GetCurrentlyReferencedBlock`0" priority="1" />
+      <Item value="Position" priority="2" />
+      <Item value="Array" priority="0" />
+      <Item value="PersistArray`0" priority="3" />
+      <Item value="MoveToNextNumber`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IVirtualDisk">
+      <Item value="ReadAllBytesFromBlock`0" priority="2" />
+      <Item value="BlockSizeInBytes" priority="2" />
+      <Item value="WriteBytesToBlock`0" priority="0" />
+      <Item value="WriteBytesContinuoslyStartingFromBlock`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IntegerArrayDiskBlock">
+      <Item value="Count" priority="0" />
+      <Item value="ToByteArray`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.MethodArgumentValidator">
+      <Item value="ThrowIfNegative`0" priority="0" />
+      <Item value="ThrowIfNull`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DataStreamNavigator">
+      <Item value="GetMaxPosition`0" priority="0" />
+      <Item value="InitializeSingleIndirectionBlock`0" priority="0" />
+      <Item value="SetPosition`0" priority="0" />
+      <Item value="CurrentBlockNavigator" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DiskBlockNavigator">
+      <Item value="Position" priority="5" />
+      <Item value="OccupiedSpaceInBytes" priority="2" />
+      <Item value="ReadAll`0" priority="0" />
+      <Item value="SizeInBytes" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Array">
+      <Item value="Copy`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DiskStructuresManager">
+      <Item value="WriteNode`0" priority="8" />
+      <Item value="ReadFolderNode`0" priority="2" />
+      <Item value="ReadFileSystemHeader`0" priority="1" />
+      <Item value="WriteObject`0" priority="1" />
+      <Item value="ReadFileNode`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DoubleIndirectionCompositeIndex">
+      <Item value="First" priority="5" />
+      <Item value="Second" priority="3" />
+      <Item value="Value" priority="0" />
+      <Item value="Third" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.AddressCalculator">
+      <Item value="GetNumberOfChunksNeededToStoreData`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.VirtualDisk">
+      <Item value="BlockSizeInBytes" priority="4" />
+      <Item value="NumberOfBlocks" priority="1" />
+      <Item value="DiskSizeInBytes" priority="0" />
+      <Item value="WriteBytesToBlock`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.NodeDescriptors.FolderNode">
+      <Item value="FileReferencesStream" priority="1" />
+      <Item value="FileReferencesStreamDefinition" priority="8" />
+      <Item value="DiskBlockIndex" priority="1" />
+      <Item value="Name" priority="7" />
+      <Item value="FolderReferencesStreamDefinition" priority="7" />
+      <Item value="Id" priority="12" />
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.SpaceRequirementsCalculator">
+      <Item value="GetNumberOfChunksNeededToStoreData`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.BinaryWriter">
+      <Item value="BaseStream" priority="0" />
+      <Item value="Write`0" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Stream">
+      <Item value="SetLength`0" priority="0" />
+      <Item value="Position" priority="2" />
+      <Item value="Length" priority="0" />
+      <Item value="Dispose`0" priority="1" />
+      <Item value="CanRead" priority="0" />
+      <Item value="Read`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.MemoryStream">
+      <Item value="Length" priority="5" />
+      <Item value="ToArray`0" priority="7" />
+      <Item value="Position" priority="2" />
+      <Item value="Read`0" priority="0" />
+      <Item value="Write`0" priority="1" />
+      <Item value="SetLength`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.BinaryReader">
+      <Item value="ReadInt32`0" priority="5" />
+      <Item value="BaseStream" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.BitArray">
+      <Item value="Length" priority="12" />
+      <Item value="CopyTo`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Min`0" priority="6" />
+      <Item value="DivRem`0" priority="1" />
+      <Item value="Max`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.VirtualFileSystem">
+      <Item value="PersistFreeSpaceBitmap`0" priority="0" />
+      <Item value="AcquireFreeBlock`0" priority="0" />
+      <Item value="CreateFile`0" priority="32" />
+      <Item value="GetRoot`0" priority="9" />
+      <Item value="FileSystemInfo" priority="1" />
+      <Item value="SaveFreeSpaceBitmap`0" priority="0" />
+      <Item value="GetAllFilesFromFolder`0" priority="2" />
+      <Item value="ReadAllBlockReferences`0" priority="0" />
+      <Item value="GetAllFoldersFrom`0" priority="14" />
+      <Item value="AcquireFreeBlocks`0" priority="1" />
+      <Item value="AddBlockReference`0" priority="1" />
+      <Item value="CreateFolder`0" priority="21" />
+      <Item value="GetAllFilesFrom`0" priority="13" />
+      <Item value="RemoveFile`0" priority="2" />
+      <Item value="ResolveParentFolderNodeByPath`0" priority="4" />
+      <Item value="ResolveFileNodeByPath`0" priority="1" />
+      <Item value="CreateFileStream`0" priority="2" />
+      <Item value="ResolveFolderNodeByPath`0" priority="2" />
+      <Item value="_virtualDisk" priority="0" />
+      <Item value="MarkBlockAsFree`0" priority="1" />
+      <Item value="RemoveFolder`0" priority="3" />
+      <Item value="RenameFolder`0" priority="3" />
+      <Item value="RegisterEnumerator`0" priority="0" />
+      <Item value="EnumerateFilesUnderFolder`0" priority="4" />
+      <Item value="InvalidateEnumeratorsForFolder`0" priority="4" />
+      <Item value="InvalidateIteratorsFor`0" priority="4" />
+      <Item value="OpenFileForReading`0" priority="10" />
+      <Item value="RenameFile`0" priority="4" />
+      <Item value="OpenFileForWriting`0" priority="15" />
+      <Item value="GetLastComponentName`0" priority="0" />
+      <Item value="DeleteFile`0" priority="11" />
+      <Item value="FreeSpaceInBytes" priority="13" />
+      <Item value="DeleteFolder`0" priority="1" />
+      <Item value="GetType`0" priority="0" />
+      <Item value="Dispose`0" priority="2" />
+      <Item value="PathBuilder" priority="16" />
+      <Item value="InvalidateEnumeratorsFor`0" priority="0" />
+      <Item value="MoveFile`0" priority="2" />
+      <Item value="GetNamesOfAllFilesFrom`0" priority="11" />
+      <Item value="GetNamesOfAllFoldersFrom`0" priority="4" />
+      <Item value="MoveFolder`0" priority="7" />
+      <Item value="CreateAndOpenFileForWriting`0" priority="4" />
+      <Item value="CopyFile`0" priority="7" />
+      <Item value="ThrowIfDisposed`0" priority="2" />
+      <Item value="GetAllFilesFromFolderRecursively`0" priority="0" />
+      <Item value="CreateCopyTaskFailureFromException`0" priority="0" />
+      <Item value="CopyFolder`0" priority="4" />
+      <Item value="ImportFolderFromRealFileSystem`0" priority="0" />
+      <Item value="ImportFolderFromVirtualFileSystem`0" priority="1" />
+      <Item value="FolderExists`0" priority="0" />
+      <Item value="GetFolderToRemoveFileFrom`0" priority="0" />
+      <Item value="ResolveFileNode`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.VirtualFileSystemInfo">
+      <Item value="FreeSpaceBitmapStartingBlock" priority="1" />
+      <Item value="FirstBlockOffset" priority="0" />
+      <Item value="FirstNonReservedDiskBlockIndex" priority="2" />
+      <Item value="BlockSizeInBytes" priority="1" />
+      <Item value="Version" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Contains`0" priority="0" />
+      <Item value="Add`0" priority="28" />
+      <Item value="AsReadOnly`0" priority="19" />
+      <Item value="Count" priority="9" />
+      <Item value="GetEnumerator`0" priority="0" />
+      <Item value="RemoveAt`0" priority="3" />
+      <Item value="AddRange`0" priority="4" />
+      <Item value="ToArray`0" priority="0" />
+      <Item value="Sort`0" priority="1" />
+      <Item value="Select`2" priority="0" />
+      <Item value="Clear`0" priority="1" />
+      <Item value="First`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="UtcNow" priority="10" />
+      <Item value="Now" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid`0" priority="36" />
+      <Item value="Empty" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DataStream">
+      <Item value="Write`0" priority="13" />
+      <Item value="SetPosition`0" priority="14" />
+      <Item value="Read`0" priority="6" />
+      <Item value="Length" priority="24" />
+      <Item value="GetEventRaiser`1" priority="0" />
+      <Item value="CurrentPosition" priority="8" />
+      <Item value="_doubleIndirectionDataStreamEnumerator" priority="2" />
+      <Item value="MoveToEnd`0" priority="7" />
+      <Item value="SetLength`0" priority="8" />
+      <Item value="GetCurrentPositionNonPhantom`0" priority="0" />
+      <Item value="Shrink`0" priority="0" />
+      <Item value="GetType`0" priority="0" />
+      <Item value="ThrowIfDisposed`0" priority="1" />
+      <Item value="Dispose`0" priority="0" />
+      <Item value="Position" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.NodeDescriptors.DataStreamDefinition">
+      <Item value="StreamLengthInBytes" priority="28" />
+      <Item value="ContentsBlockIndex" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Disk.IVirtualDisk">
+      <Item value="ReadAllBytesFromBlock`0" priority="5" />
+      <Item value="BlockSizeInBytes" priority="43" />
+      <Item value="ReadBytesFromBlock`0" priority="0" />
+      <Item value="WriteBytesToBlock`0" priority="3" />
+      <Item value="NumberOfBlocks" priority="2" />
+      <Item value="DiskSizeInBytes" priority="2" />
+      <Item value="WriteBytesContinuoslyStartingFromBlock`0" priority="0" />
+      <Item value="CanBlockBelongToDisk`0" priority="0" />
+      <Item value="Dispose`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.NodeDescriptors.FileSystemHeader">
+      <Item value="Version" priority="0" />
+      <Item value="RootBlockOffset" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.Toolbox.ItemsDistributor">
+      <Item value="Distribute`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Toolbox.BucketDistribution">
+      <Item value="IndexOfFirstItem" priority="0" />
+      <Item value="NumberOfItemsDistributed" priority="4" />
+      <Item value="BucketIndex" priority="1" />
+      <Item value="IndexOfFirstItemTheBucketGot" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.VirtualFileSystem">
+      <Item value="CreateFromDisk`0" priority="3" />
+      <Item value="Root" priority="32" />
+      <Item value="DirectorySeparatorChar" priority="9" />
+      <Item value="_directorySeparatorChar" priority="0" />
+      <Item value="CreateNew`0" priority="1" />
+      <Item value="OpenExisting`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.Toolbox.ItemDistributor">
+      <Item value="Distribute`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert">
+      <Item value="AreEqual`0" priority="12" />
+      <Item value="AreEquivalent`0" priority="10" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="AreEqual`0" priority="56" />
+      <Item value="IsTrue`0" priority="8" />
+      <Item value="IsFalse`0" priority="8" />
+      <Item value="IsNull`0" priority="0" />
+      <Item value="Fail`0" priority="0" />
+      <Item value="Inconclusive`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.Tests.TestFactories.VirtualFileSystemFactory">
+      <Item value="CreateDefaultFileSystem`0" priority="2" />
+      <Item value="CreateASystemWithSeveralFilesUnderGivenFolder`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.Tests.Helpers.ExceptionAssert">
+      <Item value="MakeSureExceptionIsRaisedBy`1" priority="37" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Toolbox.DoubleIndirectionCompositeIndex">
+      <Item value="Value" priority="5" />
+      <Item value="Second" priority="12" />
+      <Item value="First" priority="10" />
+      <Item value="FirstIndexCapacity" priority="1" />
+      <Item value="SecondIndexCapacity" priority="1" />
+      <Item value="Third" priority="2" />
+      <Item value="ThirdIndexCapacity" priority="0" />
+      <Item value="Capacity" priority="1" />
+      <Item value="MaxValue" priority="2" />
+      <Item value="SetCapacitiesAndIndex`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Disk.VirtualDisk">
+      <Item value="BlockSizeInBytes" priority="5" />
+      <Item value="WriteBytesToBlock`0" priority="1" />
+      <Item value="SeekToBlockStartWithInBlockOffset`0" priority="0" />
+      <Item value="DiskSizeInBytes" priority="0" />
+      <Item value="GetHashCode`0" priority="0" />
+      <Item value="WriteBytesContinuoslyStartingFromBlock`0" priority="0" />
+      <Item value="ReadAllBytesFromBlock`0" priority="0" />
+      <Item value="ReadBytesFromBlock`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ObjectModel.ReadOnlyCollection`1">
+      <Item value="Count" priority="10" />
+      <Item value="Select`2" priority="3" />
+      <Item value="Single`1" priority="1" />
+      <Item value="FirstOrDefault`1" priority="4" />
+      <Item value="Any`1" priority="2" />
+      <Item value="First`1" priority="2" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="Root" priority="0" />
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DoubleIndirectionBlockNavigator">
+      <Item value="DoubleIndirectReferencesList" priority="1" />
+      <Item value="SingleIndirectReferencesCurrentList" priority="0" />
+      <Item value="VirtualDisk" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.EmptyDoubleIndirectDataStreamNavigator">
+      <Item value="CurrentBlockNavigator" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Toolbox.CompositeIndex">
+      <Item value="Value" priority="2" />
+      <Item value="CompositeValue" priority="5" />
+      <Item value="MaximumValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IntegerListNavigator">
+      <Item value="MoveToNextNumber`0" priority="1" />
+      <Item value="Position" priority="0" />
+      <Item value="GetCurrentlyReferencedBlock`0" priority="1" />
+      <Item value="PersistArray`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IDataStreamNavigator">
+      <Item value="IsStreamEmpty`0" priority="0" />
+      <Item value="CurrentBlockNavigator" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Boolean">
+      <Item value="CompareTo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IntegerBoundedList">
+      <Item value="AddInteger`0" priority="0" />
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DataStreamDefinitionBurner">
+      <Item value="BurnEmptyDataStreamDefinitionInBlock`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FreeBlockAcquisitionManagerBitArrayBased">
+      <Item value="AcquireFreeBlock`0" priority="9" />
+      <Item value="ReleaseBlocks`0" priority="0" />
+      <Item value="AcquireFreeBlocks`0" priority="0" />
+      <Item value="MarkBlockAsFree`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.Toolbox.MethodArgumentValidator">
+      <Item value="ThrowIfNull`0" priority="2" />
+      <Item value="ThrowIfNegative`0" priority="24" />
+      <Item value="ThrowIfStringIsNullOrEmpty`0" priority="17" />
+      <Item value="ThrowIfIsDefault`1" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.NodeDescriptors.FileNode">
+      <Item value="Name" priority="12" />
+      <Item value="FileContentsStreamDefinition" priority="13" />
+      <Item value="Id" priority="2" />
+      <Item value="Version" priority="0" />
+      <Item value="CreationTimeUtc" priority="0" />
+      <Item value="LastModificationTimeUtc" priority="2" />
+      <Item value="DiskBlockIndex" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.Toolbox.SpaceRequirementsCalculator">
+      <Item value="GetNumberOfChunksNeededToStoreData`0" priority="15" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.NodeDescriptors.Node">
+      <Item value="DiskBlockIndex" priority="3" />
+      <Item value="InitializeValidator`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.Tests.TestFactories.VirtualDiskFactory">
+      <Item value="ConstructDefaultTestDisk`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.MockRepository">
+      <Item value="Stub`0" priority="1" />
+      <Item value="Unordered`0" priority="4" />
+      <Item value="ReplayAll`0" priority="4" />
+      <Item value="DynamicMock`1" priority="3" />
+      <Item value="VerifyAll`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.SetupResult">
+      <Item value="For`1" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IFreeBlockAcquisitionManager">
+      <Item value="AcquireFreeBlock`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IMethodOptions`1">
+      <Item value="Do`0" priority="3" />
+      <Item value="IgnoreArguments`0" priority="3" />
+      <Item value="Repeat" priority="0" />
+      <Item value="Return`0" priority="0" />
+      <Item value="Callback`10" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Linq.Enumerable">
+      <Item value="Range`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.HashSet`1">
+      <Item value="Count" priority="2" />
+      <Item value="Contains`0" priority="9" />
+      <Item value="Add`0" priority="4" />
+      <Item value="Remove`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ListTrackingChanges`1">
+      <Item value="ListVersion" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IntegerConstrainedList">
+      <Item value="AddInteger`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Toolbox.IntegerListConstrained">
+      <Item value="Count" priority="8" />
+      <Item value="AddInteger`0" priority="4" />
+      <Item value="GetEnumerator`0" priority="0" />
+      <Item value="MaximumCount" priority="0" />
+      <Item value="ToByteArray`0" priority="1" />
+      <Item value="GetAddressableEnumerator`0" priority="3" />
+      <Item value="IsFull" priority="1" />
+      <Item value="Shrink`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Toolbox.EnumeratorAddressable`1">
+      <Item value="SetPosition`0" priority="4" />
+      <Item value="MoveNext`0" priority="5" />
+      <Item value="Current" priority="8" />
+      <Item value="Reset`0" priority="4" />
+      <Item value="IsLast" priority="4" />
+      <Item value="Position" priority="1" />
+      <Item value="Count" priority="0" />
+      <Item value="IsAtLastElement" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DoubleIndirectionDataStreamNavigator">
+      <Item value="IsEmpty" priority="5" />
+      <Item value="Current" priority="9" />
+      <Item value="MoveNext`0" priority="1" />
+      <Item value="GetCurrentPosition`0" priority="0" />
+      <Item value="SetPosition`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Toolbox.ListTrackingChanges`1">
+      <Item value="ListVersion" priority="0" />
+      <Item value="Count" priority="2" />
+      <Item value="RemoveAt`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToList`1" priority="7" />
+      <Item value="Cast`1" priority="1" />
+      <Item value="Reverse`1" priority="0" />
+      <Item value="ToArray`1" priority="0" />
+      <Item value="ContainsLetters`0" priority="0" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="Select`2" priority="0" />
+      <Item value="IsEmpty`1" priority="0" />
+      <Item value="Count`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IFreeBlockManager">
+      <Item value="AcquireFreeBlock`0" priority="2" />
+      <Item value="AcquireFreeBlocks`0" priority="2" />
+      <Item value="MarkBlockAsFree`0" priority="5" />
+      <Item value="MarkBlocksAsFree`0" priority="3" />
+      <Item value="FreeBlockCount" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IEventRaiser">
+      <Item value="Raise`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DoubleIndirectionDataStreamEnumerator">
+      <Item value="Current" priority="5" />
+      <Item value="Position" priority="0" />
+      <Item value="Length" priority="1" />
+      <Item value="IsEmpty" priority="4" />
+      <Item value="DoublyIndirectBlockReferences" priority="2" />
+      <Item value="SetPosition`0" priority="1" />
+      <Item value="SinglyIndirectBlockReferences" priority="2" />
+      <Item value="GetMaxPosition`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IDiskBlockNavigator">
+      <Item value="Position" priority="8" />
+      <Item value="SizeInBytes" priority="0" />
+      <Item value="OccupiedSpaceInBytes" priority="2" />
+      <Item value="IsNull" priority="4" />
+      <Item value="NumberOfBytesCanBeWrittenAtCurrentPosition" priority="0" />
+      <Item value="CanAcceptBytesAtCurrentPosition" priority="0" />
+      <Item value="IsAtEnd" priority="1" />
+      <Item value="IsAtEndOfReadableData" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.Expect">
+      <Item value="Call`0" priority="3" />
+      <Item value="On`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.Toolbox.EnumeratorAddressable`1">
+      <Item value="IndexOfPositionBeforeFirstElement" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IDoubleIndirectionDataStreamEnumerator">
+      <Item value="IsEmpty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.NonEmptyDoubleIndirectionDataStreamEnumeratorBase">
+      <Item value="DoublyIndirectBlockReferences" priority="1" />
+      <Item value="SingleIndirectionBlockSize" priority="5" />
+      <Item value="BlockSize" priority="2" />
+      <Item value="DataStreamDefinition" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IDataStream">
+      <Item value="Length" priority="2" />
+      <Item value="MoveToEnd`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DataStreamNodeUpdating">
+      <Item value="PersistOwningNode`0" priority="0" />
+      <Item value="SetPosition`0" priority="1" />
+      <Item value="Length" priority="1" />
+      <Item value="MoveToEnd`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DiskBlockNavigatorNodeUpdating">
+      <Item value="Position" priority="1" />
+      <Item value="OccupiedSpaceInBytes" priority="1" />
+      <Item value="FreeSpaceInBytes" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Addressing.NonEmptyDoubleIndirectionDataStreamEnumerator">
+      <Item value="Current" priority="5" />
+      <Item value="MoveNext`0" priority="1" />
+      <Item value="Length" priority="0" />
+      <Item value="Position" priority="1" />
+      <Item value="IsLast" priority="0" />
+      <Item value="SinglyIndirectBlockReferences" priority="0" />
+      <Item value="InitializeSingleIndirectionBlock`0" priority="0" />
+      <Item value="IsAtLastElement" priority="2" />
+      <Item value="SetPosition`0" priority="1" />
+      <Item value="SetCurrentDiskBlock`0" priority="0" />
+      <Item value="Reset`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Addressing.DoubleIndirectionDataStreamEnumeratorBase">
+      <Item value="DataStreamDefinition" priority="1" />
+      <Item value="DoublyIndirectBlockReferences" priority="3" />
+      <Item value="DoublyIndirectReferencesEnumerator" priority="1" />
+      <Item value="SingleIndirectionBlockSize" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DiskBlock">
+      <Item value="Position" priority="6" />
+      <Item value="OccupiedSpaceInBytes" priority="2" />
+      <Item value="WriteBytes`0" priority="3" />
+      <Item value="CanAcceptBytesAtCurrentPosition" priority="0" />
+      <Item value="ReadAll`0" priority="0" />
+      <Item value="SizeInBytes" priority="2" />
+      <Item value="IsAtEndOfBlock" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Equals`0" priority="9" />
+      <Item value="Split`0" priority="2" />
+      <Item value="FormatWith`0" priority="43" />
+      <Item value="TrimStart`0" priority="4" />
+      <Item value="IndexOf`0" priority="2" />
+      <Item value="StartsWith`0" priority="3" />
+      <Item value="Substring`0" priority="3" />
+      <Item value="Length" priority="12" />
+      <Item value="ContainsAny`0" priority="1" />
+      <Item value="Remove`0" priority="3" />
+      <Item value="EndsWith`0" priority="2" />
+      <Item value="LastIndexOf`0" priority="0" />
+      <Item value="from" priority="0" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="ToUpper`0" priority="1" />
+      <Item value="TrimEnd`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.StringComparison">
+      <Item value="Ordinal" priority="0" />
+      <Item value="OrdinalIgnoreCase" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="ToString`0" priority="6" />
+      <Item value="ToByteArray`0" priority="1" />
+      <Item value="Equals`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Addressing.IDoubleIndirectionDataStreamEnumerator">
+      <Item value="MoveNext`0" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Addressing.DoubleIndirectionDataStreamEnumerator">
+      <Item value="IsEmpty" priority="6" />
+      <Item value="Position" priority="0" />
+      <Item value="MoveNext`0" priority="4" />
+      <Item value="Current" priority="11" />
+      <Item value="Count" priority="1" />
+      <Item value="IsAtLastElement" priority="0" />
+      <Item value="Reset`0" priority="0" />
+      <Item value="DoublyIndirectBlockReferences" priority="3" />
+      <Item value="SetPosition`0" priority="0" />
+      <Item value="SinglyIndirectBlockReferences" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="Copy`0" priority="0" />
+      <Item value="Delete`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="Combine`0" priority="0" />
+      <Item value="DirectorySeparatorChar" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext">
+      <Item value="TestDeploymentDir" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="HasValue" priority="5" />
+      <Item value="Value" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Tests.DataStreamTests">
+      <Item value="TryWritingAndReadingBackSpecifiedByteArrays`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.Tests.TestFactories.TestCollaboratorsFactory">
+      <Item value="CreateCollaboratorsForTestingDataStreams`0" priority="0" />
+      <Item value="CreateEmptyDataStream`0" priority="0" />
+      <Item value="CreateCollaboratorsForTestingDataStreamsOneGigabyteDrive`0" priority="0" />
+      <Item value="CreateCollaboratorsForTestingDataStreamStructureBuilder`0" priority="0" />
+      <Item value="CreateAllCollaborators`0" priority="5" />
+      <Item value="CreateFileSystemFromExistingStream`0" priority="5" />
+      <Item value="CreateFileSystem`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Tests.TestFactories.TestCollaboratorSet">
+      <Item value="Disk" priority="9" />
+      <Item value="VirtualFileSystem" priority="2" />
+      <Item value="FileNode" priority="3" />
+      <Item value="DiskStructuresManager" priority="0" />
+      <Item value="FileInfo" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IDiskBlock">
+      <Item value="BlockIndex" priority="2" />
+      <Item value="Position" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="CompareTo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.FileMode">
+      <Item value="Create" priority="1" />
+      <Item value="Open" priority="0" />
+      <Item value="CreateNew" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.Tests.TestFactories.ByteBufferFactory">
+      <Item value="CreateByteBufferWithAllBytesSet`0" priority="1" />
+      <Item value="BuildSomeGuidsIntoByteArray`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Addressing.NonEmptyDiskBlockEnumerator">
+      <Item value="GetHashCode`0" priority="0" />
+      <Item value="GetMaxPosition`0" priority="0" />
+      <Item value="MoveNext`0" priority="0" />
+      <Item value="Reset`0" priority="0" />
+      <Item value="SetFirstSingleIndirectBlock`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DataStreamSizeManager">
+      <Item value="SetSize`0" priority="1" />
+      <Item value="CurrentSize" priority="6" />
+      <Item value="MakeLonger`0" priority="0" />
+      <Item value="MakeShorter`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DiskBlockEnumeratorFactory">
+      <Item value="CreateNonEmpty`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DataStreamStructureBuilder">
+      <Item value="CurrentSize" priority="5" />
+      <Item value="CreateEnumerator`0" priority="2" />
+      <Item value="MaximumSize" priority="2" />
+      <Item value="DoubleIndirectBlocks" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.AddressingSystemParameters">
+      <Item value="DoubleIndirectBlockSize" priority="9" />
+      <Item value="SingleIndirectBlockSize" priority="19" />
+      <Item value="BlockSize" priority="11" />
+      <Item value="DataBlockReferencesCountInSingleIndirectBlock" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.AddressingSystemParameters">
+      <Item value="Default" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Addressing.IDoubleIndirectDataStreamEnumerator">
+      <Item value="SetPosition`0" priority="0" />
+      <Item value="Count" priority="1" />
+      <Item value="Current" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEqualityComparer`1">
+      <Item value="Equals`0" priority="16" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.StringComparer">
+      <Item value="OrdinalIgnoreCase" priority="3" />
+      <Item value="CurrentCulture" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="25" />
+      <Item value="Empty" priority="16" />
+      <Item value="Equals`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FileInfo">
+      <Item value="LastModificationTimeUtc" priority="3" />
+      <Item value="FullPath" priority="40" />
+      <Item value="Id" priority="2" />
+      <Item value="Name" priority="9" />
+      <Item value="SizeInBytes" priority="2" />
+      <Item value="CreationTimeUtc" priority="0" />
+      <Item value="ToFileAddressable`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FolderInfo">
+      <Item value="FullPath" priority="45" />
+      <Item value="Name" priority="2" />
+      <Item value="Id" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Stack`1">
+      <Item value="Push`0" priority="1" />
+      <Item value="Peek`0" priority="1" />
+      <Item value="Pop`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.StringSplitOptions">
+      <Item value="RemoveEmptyEntries" priority="1" />
+      <Item value="None" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DataStreamStructureBuilderImmutable">
+      <Item value="AddressingSystemParameters" priority="17" />
+      <Item value="DoubleIndirectBlocks" priority="4" />
+      <Item value="Disk" priority="3" />
+      <Item value="DataStreamDefinition" priority="2" />
+      <Item value="DiskStructuresManager" priority="1" />
+      <Item value="GoverningNode" priority="1" />
+      <Item value="GetMaxPosition`0" priority="0" />
+      <Item value="CurrentSize" priority="1" />
+      <Item value="AddressingBlockSizesCalculator" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.Constants">
+      <Item value="BlockReferenceSizeInBytes" priority="0" />
+      <Item value="IllegalCharactersForPaths" priority="2" />
+      <Item value="IllegalCharactersForNames" priority="3" />
+      <Item value="NumberOfBitsInByte" priority="6" />
+      <Item value="MaximumCharacterCountInFilesAndFolders" priority="3" />
+      <Item value="BytesToStoreChunkOfDataLength" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IPathValidator">
+      <Item value="Validate`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FileSystemArtifactNamesValidator">
+      <Item value="Validate`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Char">
+      <Item value="IsLetter`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Char">
+      <Item value="Equals`0" priority="1" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IFileSystemArtifactNamesValidator">
+      <Item value="Validate`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.MockRepository">
+      <Item value="GenerateStub`0" priority="1" />
+      <Item value="GenerateMock`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.PathValidator">
+      <Item value="Validate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.NodeResolver">
+      <Item value="ResolveFileNodeByPath`0" priority="2" />
+      <Item value="ResolveParentFolderNodeByPath`0" priority="0" />
+      <Item value="GetAllFilesFrom`0" priority="2" />
+      <Item value="GetAllFoldersFrom`0" priority="4" />
+      <Item value="ResolveFolderNodeByPath`0" priority="4" />
+      <Item value="GetRoot`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FileSystemNodeStorage">
+      <Item value="WriteNode`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.Regex">
+      <Item value="Match`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.Match">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Toolbox.Wildcard">
+      <Item value="CheckStringForMatch`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.WeakReference">
+      <Item value="Target" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FolderContentsEnumerator">
+      <Item value="GetType`0" priority="0" />
+      <Item value="MakeSureObjectHasNotBeenDisposed`0" priority="1" />
+      <Item value="Dispose`0" priority="4" />
+      <Item value="SearchFileFromTreeTopRecursively`0" priority="0" />
+      <Item value="Current" priority="0" />
+      <Item value="FolderBeingEnumerated" priority="2" />
+      <Item value="MarkAsInvalid`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="FullName" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.GC">
+      <Item value="SuppressFinalize`0" priority="3" />
+      <Item value="Collect`0" priority="6" />
+      <Item value="WaitForPendingFinalizers`0" priority="2" />
+      <Item value="KeepAlive`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IFolderEnumeratorRegistry">
+      <Item value="Unregister`0" priority="2" />
+      <Item value="InvalidateEnumeratorsFor`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IFilesAndFoldersProvider">
+      <Item value="GetAllFilesFrom`0" priority="4" />
+      <Item value="GetAllFoldersFrom`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="ContainsKey`0" priority="8" />
+      <Item value="Remove`0" priority="6" />
+      <Item value="Add`0" priority="1" />
+      <Item value="Values" priority="1" />
+      <Item value="Select`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Toolbox.WeakReference`1">
+      <Item value="ReferencedObject" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Object">
+      <Item value="ReferenceEquals`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.LastCall">
+      <Item value="Repeat" priority="1" />
+      <Item value="IgnoreArguments`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IRepeat`1">
+      <Item value="Once`0" priority="1" />
+      <Item value="Times`0" priority="0" />
+      <Item value="Never`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerator`1">
+      <Item value="MoveNext`0" priority="4" />
+      <Item value="Current" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.NodeResolvingResult`1">
+      <Item value="ResolvedNode" priority="25" />
+      <Item value="FoldersPassedWhileResolving" priority="10" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Monitor">
+      <Item value="Enter`0" priority="13" />
+      <Item value="Exit`0" priority="16" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ILockingManager">
+      <Item value="ReleaseLock`0" priority="0" />
+      <Item value="AcquireLock`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FileLock">
+      <Item value="AcquireAsReader`0" priority="4" />
+      <Item value="AcquireAsWriter`0" priority="2" />
+      <Item value="Release`0" priority="1" />
+      <Item value="InvariantCheck`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.LockKind">
+      <Item value="Read" priority="2" />
+      <Item value="Write" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FileLockable">
+      <Item value="LockForReading`0" priority="4" />
+      <Item value="LockForWriting`0" priority="2" />
+      <Item value="ReleaseLock`0" priority="0" />
+      <Item value="IsFreeForTaking" priority="0" />
+      <Item value="FileId" priority="3" />
+      <Item value="AssociatedNodes" priority="0" />
+      <Item value="IdsOfAssociatedNodes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.LockKind">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.NodeLock">
+      <Item value="AddLock`0" priority="0" />
+      <Item value="ReleaseLock`0" priority="0" />
+      <Item value="IsLocked" priority="0" />
+      <Item value="IdOfLockedNode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.NodeLockable">
+      <Item value="AddLock`0" priority="1" />
+      <Item value="IsLocked" priority="1" />
+      <Item value="ReleaseLock`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.Tests.TestFactories.FakeNodesFactory">
+      <Item value="CreateFakeFolderNodes`0" priority="5" />
+      <Item value="CreateFakeFileNode`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.LockingManager">
+      <Item value="AcquireLock`0" priority="1" />
+      <Item value="IsNodeLockedForRenamesAndRemovals`0" priority="1" />
+      <Item value="ReleaseLock`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IFileSystemLockReleaseManager">
+      <Item value="AssertWasCalled`1" priority="0" />
+      <Item value="ReleaseLock`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IFileSystemObjectLockingManager">
+      <Item value="IsNodeLockedForRenamesAndRemovals`0" priority="2" />
+      <Item value="IsFileLocked`0" priority="0" />
+      <Item value="IsNodeLockedForRenames`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DataStreamReadable">
+      <Item value="Dispose`0" priority="0" />
+      <Item value="Position" priority="2" />
+      <Item value="Length" priority="6" />
+      <Item value="Read`0" priority="5" />
+      <Item value="SetPosition`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DataStreamReadableWritable">
+      <Item value="Write`0" priority="9" />
+      <Item value="Read`0" priority="0" />
+      <Item value="Length" priority="1" />
+      <Item value="SetLength`0" priority="2" />
+      <Item value="Truncate`0" priority="0" />
+      <Item value="Dispose`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="Start`0" priority="2" />
+      <Item value="Join`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FolderEnumeratorRegistry">
+      <Item value="RemoveFolderRecordIfItIsEmpty`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Func`1">
+      <Item value="Invoke`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.TimeSpan">
+      <Item value="FromSeconds`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="MaxValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Tests.TestDataStreamStructureBuilder">
+      <Item value="DoubleIndirectBlocks" priority="1" />
+      <Item value="SetSize`0" priority="1" />
+      <Item value="CreateEnumerator`0" priority="0" />
+      <Item value="CurrentSize" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Tests.TestFactories.StructureBuilderTestCollaborators">
+      <Item value="Disk" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Tests.TestFactories.AllCollaborators">
+      <Item value="NodeResolver" priority="3" />
+      <Item value="Disk" priority="5" />
+      <Item value="DiskStructuresManager" priority="0" />
+      <Item value="FileNodeFake" priority="2" />
+      <Item value="VirtualFileSystem" priority="6" />
+      <Item value="Stream" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="NewLine" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="ToString`0" priority="0" />
+      <Item value="Message" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Ticks" priority="2" />
+      <Item value="ToLocalTime`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="NextBytes`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Toolbox.AddressingBlockSizesCalculator">
+      <Item value="GetSizesToStoreItems`0" priority="1" />
+      <Item value="GetSizesOfAddressingBlocksSufficientToStoreItems`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Toolbox.AddressingSystemBlockSizes">
+      <Item value="LastSingleIndirectBlockSize" priority="7" />
+      <Item value="DoubleIndirectBlockSize" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.Disk.VirtualDisk">
+      <Item value="OnlySupportedBlockSize" priority="4" />
+      <Item value="CreateFromStream`0" priority="1" />
+      <Item value="CreateFormattingTheStream`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.BrowserWindowViewModel">
+      <Item value="CurrentFolderPath" priority="7" />
+      <Item value="BrowseNewSystemCreatedFromFile`0" priority="0" />
+      <Item value="RefreshFolderContents`0" priority="1" />
+      <Item value="CurrentFolderContents" priority="0" />
+      <Item value="PropertyChanged" priority="3" />
+      <Item value="NotifyOfPropertyChange`0" priority="0" />
+      <Item value="CloseDown`0" priority="0" />
+      <Item value="BrowseExistingSystem`0" priority="0" />
+      <Item value="Dispose`0" priority="0" />
+      <Item value="Quit`0" priority="0" />
+      <Item value="CurrentlySelectedArtifact" priority="4" />
+      <Item value="GetContentsOfFolder`0" priority="1" />
+      <Item value="SetCurrentFolderContents`0" priority="0" />
+      <Item value="RefreshCurrentFolderContentsFallingBackToRootIfNecessary`0" priority="4" />
+      <Item value="GetAndSetAsCurrentContentsOfGivenFolder`0" priority="2" />
+      <Item value="DesiredCurrentFolderPath" priority="2" />
+      <Item value="NotifyInterestedPartiesOfPropertyChange`0" priority="1" />
+      <Item value="CanRenameFileOrFolder" priority="0" />
+      <Item value="UpdateFolderContentsChangingFolder`0" priority="0" />
+      <Item value="Tasks" priority="0" />
+      <Item value="CurrentlySelectedTaskViewModel" priority="3" />
+      <Item value="FileSearchPattern" priority="1" />
+      <Item value="CanClose" priority="0" />
+      <Item value="TaskCounter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ObjectModel.ObservableCollection`1">
+      <Item value="Clear`0" priority="0" />
+      <Item value="Add`0" priority="3" />
+      <Item value="Remove`0" priority="0" />
+      <Item value="Insert`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.ViewModel.FolderViewModel">
+      <Item value="FromFolderInfo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Application">
+      <Item value="MainWindow" priority="1" />
+      <Item value="Run`0" priority="0" />
+      <Item value="Shutdown`0" priority="0" />
+      <Item value="Dispatcher" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Window">
+      <Item value="DataContext" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Browser.BrowserMainWindow">
+      <Item value="DataContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Win32.OpenFileDialog">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="CheckFileExists" priority="0" />
+      <Item value="FileName" priority="1" />
+      <Item value="Title" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Interlocked">
+      <Item value="CompareExchange`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Application">
+      <Item value="Current" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.IApplicationController">
+      <Item value="DisplayNewBrowserWindow`0" priority="0" />
+      <Item value="GetNewFileNameFromUser`0" priority="0" />
+      <Item value="DisplayTaskResults`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.BrowserHubWindowViewModel">
+      <Item value="BrowseNewSystemCreatedFromFile`0" priority="0" />
+      <Item value="BrowseExistingSystem`0" priority="0" />
+      <Item value="CloseDown`0" priority="0" />
+      <Item value="VirtualFileSystemInstanceManager" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Browser.BrowserWindow">
+      <Item value="Show`0" priority="0" />
+      <Item value="Close`0" priority="0" />
+      <Item value="QuitButtonClick`0" priority="0" />
+      <Item value="FilesAndFoldersListBox" priority="0" />
+      <Item value="DataContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.PropertyChangedEventHandler">
+      <Item value="Invoke`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Data.Binding">
+      <Item value="Mode" priority="0" />
+      <Item value="UpdateSourceTrigger" priority="2" />
+      <Item value="ValidatesOnDataErrors" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.StringComparer">
+      <Item value="Compare`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.FileSystemArtifactViewModel">
+      <Item value="Name" priority="1" />
+      <Item value="Accept`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.IUserInteractionSystem">
+      <Item value="PickAFile`0" priority="0" />
+      <Item value="GetNewArtifactNamesFromUser`0" priority="0" />
+      <Item value="ShowMessage`0" priority="1" />
+      <Item value="PickAFolder`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.VirtualDiskFormatter">
+      <Item value="FreeSpaceStartingBlockIndex" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FreeSpaceBitmapStore">
+      <Item value="Write`0" priority="3" />
+      <Item value="Read`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FreeBlockManagerBitArrayBased">
+      <Item value="AcquireFreeBlocks`0" priority="1" />
+      <Item value="MapToByteArray`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.VirtualDiskFormatter">
+      <Item value="Format`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FreeBlockManagerDiskWriting">
+      <Item value="AcquireFreeBlocks`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Browser.NewArtifactView">
+      <Item value="DataContext" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="DialogResult" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.NewArtifactViewModel">
+      <Item value="Location" priority="1" />
+      <Item value="Name" priority="1" />
+      <Item value="ArtifactKind" priority="2" />
+      <Item value="PropertyChanged" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.ViewModel.ArtifactKind">
+      <Item value="File" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.SelectionChangedEventArgs">
+      <Item value="AddedItems" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.IList">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ListView">
+      <Item value="SelectedItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.PathBuilder">
+      <Item value="EndsWithPathSeparatorChar`0" priority="1" />
+      <Item value="IsRootSameAsDirectorySeparatorChar" priority="0" />
+      <Item value="CombinePaths`0" priority="16" />
+      <Item value="Default" priority="1" />
+      <Item value="GetRelativePath`0" priority="3" />
+      <Item value="GetFileOrFolderName`0" priority="2" />
+      <Item value="IsRoot`0" priority="1" />
+      <Item value="PointsToRoot`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.InvalidPathException">
+      <Item value="Message" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.IFileSystemArtifactViewModelVisitor">
+      <Item value="VisitFile`0" priority="0" />
+      <Item value="VisitFolder`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.FileViewModel">
+      <Item value="FullPath" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.Visitors.StuffDeletingVisitor">
+      <Item value="HandleErrorThatHasAUserFriendlyMessage`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBox">
+      <Item value="Show`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Browser.NewArtifactNameView">
+      <Item value="DialogResult" priority="0" />
+      <Item value="DataContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.ViewModel.EventRaiser">
+      <Item value="RaisePropertyChangedEvent`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.NewArtifactNameViewModel">
+      <Item value="NotifyInterestedPartiesOfPropertyChange`0" priority="0" />
+      <Item value="IsValid" priority="0" />
+      <Item value="NewName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.InvalidNameException">
+      <Item value="Message" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Controls.Validation">
+      <Item value="GetErrors`0" priority="3" />
+      <Item value="GetHasError`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ObjectModel.ReadOnlyObservableCollection`1">
+      <Item value="Count" priority="2" />
+      <Item value="Items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.INewArtifactCreator">
+      <Item value="CreateNewArtifact`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.FolderViewModel">
+      <Item value="FullPath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.ThreadPool">
+      <Item value="QueueUserWorkItem`0" priority="10" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Threading.Dispatcher">
+      <Item value="Invoke`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ArgumentException">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FileSystemCreationFailedException">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.FileSystemArtifactNamesValidator">
+      <Item value="Default" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.PathValidator">
+      <Item value="Default" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.PathBuilder">
+      <Item value="Default" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.BlockReferenceListsEditor">
+      <Item value="AddBlockReference`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.CannotResolvePathException">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.ManualResetEvent">
+      <Item value="Set`0" priority="1" />
+      <Item value="WaitOne`0" priority="1" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FileCopyTaskResult">
+      <Item value="CopiedSuccessfully" priority="1" />
+      <Item value="FileThatWasBeingCopied" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.DirectoryInfo">
+      <Item value="Refresh`0" priority="1" />
+      <Item value="GetFileSystemInfos`0" priority="0" />
+      <Item value="GetDirectories`0" priority="3" />
+      <Item value="GetFiles`0" priority="0" />
+      <Item value="FullName" priority="1" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IImportingVisitor">
+      <Item value="VisitFolder`0" priority="0" />
+      <Item value="VisitFile`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileInfo">
+      <Item value="FullName" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.VirtualFileSystemExtensions">
+      <Item value="CreateFileSystemObjectStructureFromFolder`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FolderImportable">
+      <Item value="Files" priority="0" />
+      <Item value="Subfolders" priority="0" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="Accept`0" priority="3" />
+      <Item value="FullPath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FileImportable">
+      <Item value="Accept`0" priority="1" />
+      <Item value="FullPath" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Visitors.RealFileContentsEnumerator">
+      <Item value="Current" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.FolderBrowserDialog">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="SelectedPath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FileSystemArtifact">
+      <Item value="FullPath" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.CannotGetFileContentsException">
+      <Item value="Message" priority="1" />
+      <Item value="InnerException" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Visitors.ImportingAddressableObjectVisitor">
+      <Item value="GetResult`0" priority="0" />
+      <Item value="AddNewErrorToFolderTaskResults`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FileSystemTaskResult">
+      <Item value="Equals`0" priority="0" />
+      <Item value="Error" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Visitors.FileContentsEnumerator">
+      <Item value="Current" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.KeyEventArgs">
+      <Item value="Key" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Value" priority="0" />
+      <Item value="Key" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.IVirtualFileSystemInstanceManager">
+      <Item value="CreateFromFile`0" priority="1" />
+      <Item value="CreateNewFormattingTheFile`0" priority="1" />
+      <Item value="Release`0" priority="0" />
+      <Item value="ReportThatSystemIsNoLongerNeeded`0" priority="0" />
+      <Item value="IsEmpty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.SecurityException">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FolderAddressable">
+      <Item value="FullPath" priority="4" />
+      <Item value="Files" priority="0" />
+      <Item value="Subfolders" priority="0" />
+      <Item value="GetNumberOfItemsContainedIn`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.TaskViewModel">
+      <Item value="ProgressPercentage" priority="2" />
+      <Item value="PropertyChanged" priority="1" />
+      <Item value="CanCancel" priority="3" />
+      <Item value="Completed" priority="2" />
+      <Item value="SetResult`0" priority="2" />
+      <Item value="Results" priority="0" />
+      <Item value="ShowResult`0" priority="1" />
+      <Item value="CancelTask`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Browser.TaskView">
+      <Item value="DataContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Browser.TaskResultView">
+      <Item value="DataContext" priority="0" />
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.FileSystemTask">
+      <Item value="Cancellable" priority="0" />
+      <Item value="Cancel`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Func`2">
+      <Item value="Invoke`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.IFileSystemCancellableTaskToken">
+      <Item value="HasBeenCancelled" priority="3" />
+      <Item value="ReportProgressChange`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.FileSystemCancellableTaskToken">
+      <Item value="Cancel`0" priority="0" />
+      <Item value="ProgressChanged" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.ProgressChangedEventArgs">
+      <Item value="ProgressPercentage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.InsufficientSpaceException">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FolderTaskResult">
+      <Item value="SourceFolder" priority="1" />
+      <Item value="DestinationFolder" priority="1" />
+      <Item value="ExecutedSuccessfully" priority="3" />
+      <Item value="Error" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VirtualFileSystem.ViewModel.TaskResultViewModel">
+      <Item value="FromFolderTaskResult`0" priority="0" />
+      <Item value="FromFileTaskResult`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Button">
+      <Item value="DataContext" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileStream">
+      <Item value="Dispose`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.IUserInteractionService">
+      <Item value="PickAFile`0" priority="0" />
+      <Item value="GetVirtualFolderPath`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Browser.VirtualFolderSelectionView">
+      <Item value="DialogResult" priority="1" />
+      <Item value="DataContext" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.VirtualFolderPathViewModel">
+      <Item value="Path" priority="4" />
+      <Item value="FileSearchPattern" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FileSystemCancellableTaskToken">
+      <Item value="HasBeenCancelled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.ArtifactImporter">
+      <Item value="MarkTaskViewModelAsCompleted`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.Visitors.ArtifactCopyingVisitor">
+      <Item value="SetCopyFileError`0" priority="0" />
+      <Item value="TaskViewModel" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBoxResult">
+      <Item value="Yes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.CannotGetImportedFolderStructureException">
+      <Item value="InnerException" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DiskStructuresManagement.NodeResolver">
+      <Item value="ResolveFolderNodeByPath`0" priority="1" />
+      <Item value="FolderExists`0" priority="0" />
+      <Item value="GetAllFoldersFrom`0" priority="0" />
+      <Item value="GetAllFilesFrom`0" priority="0" />
+      <Item value="GetAllFilesFromFolderRecursivelyAsPlainLists`0" priority="0" />
+      <Item value="GetIdsOfAllFoldersUnderGivenOne`0" priority="0" />
+      <Item value="ResolveFileNode`0" priority="0" />
+      <Item value="ResolveParentFolderNodeByPath`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.FileShare">
+      <Item value="Read" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.FileSearchPatternViewModel">
+      <Item value="Pattern" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Browser.TitledStringListView">
+      <Item value="DataContext" priority="0" />
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.DiskStructuresManagement.NodeResolvingResult`1">
+      <Item value="ResolvedNode" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FileManager">
+      <Item value="DeleteFile`0" priority="0" />
+      <Item value="OpenFileForReading`0" priority="0" />
+      <Item value="OpenFileForWriting`0" priority="0" />
+      <Item value="RenameFile`0" priority="1" />
+      <Item value="MoveFile`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.FolderManager">
+      <Item value="CreateFolder`0" priority="0" />
+      <Item value="MoveFolder`0" priority="0" />
+      <Item value="DeleteFolder`0" priority="0" />
+      <Item value="RenameFolder`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.TaskCounter">
+      <Item value="NoTasksRunning" priority="1" />
+      <Item value="IncreaseNumberOfOutstandingTasks`0" priority="4" />
+      <Item value="DecreaseNumberOfOutstandingTasks`0" priority="4" />
+      <Item value="ReevaluateTheProperty`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBoxButton">
+      <Item value="OK" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.CancelEventArgs">
+      <Item value="Cancel" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.VirtualFileSystemInstanceManager">
+      <Item value="IsEmpty" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2+ValueCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.Browser.BrowserHubWindowView">
+      <Item value="DataContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ContentsEnumerators.FolderContentsEnumerator">
+      <Item value="SearchFileInFolderRecursively`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.ViewModels.BrowserWindowViewModel">
+      <Item value="NotifyInterestedPartiesOfPropertyChange`0" priority="0" />
+      <Item value="IsRefreshEnabled" priority="1" />
+      <Item value="IsSearchEnabled" priority="2" />
+      <Item value="FileSearchPattern" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualFileSystem.ViewModel.ViewModels.FileSearchPatternViewModel">
+      <Item value="IsSearchEnabled" priority="2" />
+      <Item value="IsValid" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ADAB5108-12EC-4458-8197-74BFCB6C83A6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VirtualFileSystem</RootNamespace>
+    <AssemblyName>VirtualFileSystem</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\VirtualFileSystem.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\VirtualFileSystem.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\AssemblyInfoShared.cs">
+      <Link>Properties\AssemblyInfoShared.cs</Link>
+    </Compile>
+    <Compile Include="AddressingSystemParameters.cs" />
+    <Compile Include="Exceptions\Irrecoverable\TaskCancelledException.cs" />
+    <Compile Include="Extensions\FolderEnumeratorRegistryExtensions.cs" />
+    <Compile Include="FileManager.cs" />
+    <Compile Include="FolderManager.cs" />
+    <Compile Include="Streaming\IDoubleIndirectDataStreamEnumerator.cs" />
+    <Compile Include="Exceptions\CannotGetFileContentsException.cs" />
+    <Compile Include="Exceptions\FileNotFoundException.cs" />
+    <Compile Include="Exceptions\Irrecoverable\BlockNotOccupiedException.cs" />
+    <Compile Include="BlockReferenceListsEditor.cs" />
+    <Compile Include="Exceptions\Irrecoverable\CannotAcquireLockException.cs" />
+    <Compile Include="Exceptions\FileSystemCreationFailedException.cs" />
+    <Compile Include="Exceptions\Irrecoverable\InconsistentDataDetectedException.cs" />
+    <Compile Include="Exceptions\MaximumFileCountReachedException.cs" />
+    <Compile Include="Exceptions\CannotGetImportedFolderStructureException.cs" />
+    <Compile Include="FilesAndFolders\OperationalModel\FileAddressable.cs" />
+    <Compile Include="FilesAndFolders\OperationalModel\FolderAddressable.cs" />
+    <Compile Include="Extensions\FolderAddressableExtensions.cs" />
+    <Compile Include="Extensions\FreeBlockManagerExtensions.cs" />
+    <Compile Include="FilesAndFolders\OperationalModel\IAddressableObjectVisitor.cs" />
+    <Compile Include="FilesAndFolders\OperationalModel\IAddressableObjectVisitorAcceptor.cs" />
+    <Compile Include="FilesAndFolders\OperationalModel\Addressable.cs" />
+    <Compile Include="Extensions\VirtualFileSystemExtensions.cs" />
+    <Compile Include="Tasks\FileSystemCancellableTaskToken.cs" />
+    <Compile Include="Tasks\FileSystemTaskResult.cs" />
+    <Compile Include="Tasks\FileTaskResult.cs" />
+    <Compile Include="Tasks\FolderTaskResult.cs" />
+    <Compile Include="FreeSpace\FreeSpaceBitmapStore.cs" />
+    <Compile Include="Tasks\IFileSystemCancellableTaskToken.cs" />
+    <Compile Include="DiskStructuresManagement\IFileSystemNodeStorage.cs" />
+    <Compile Include="Exceptions\MaximumFileSizeReachedException.cs" />
+    <Compile Include="Streaming\DataStreamToReadableAdapter.cs" />
+    <Compile Include="Exceptions\Irrecoverable\CannotResolvePathException.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Streaming\DataStreamReadable.cs" />
+    <Compile Include="Streaming\DataStreamReadableWritable.cs" />
+    <Compile Include="Streaming\DataStreamStructureBuilder.cs" />
+    <Compile Include="Streaming\DataStreamStructureBuilderImmutable.cs" />
+    <Compile Include="DiskBlockEnumeration\DiskBlockEnumeratorFactory.cs" />
+    <Compile Include="Exceptions\Irrecoverable\LockNotFoundException.cs" />
+    <Compile Include="Exceptions\Irrecoverable\LockAlreadyHeldException.cs" />
+    <Compile Include="FilesAndFolders\InfoModel\FileInfo.cs" />
+    <Compile Include="Locking\FileLockable.cs" />
+    <Compile Include="Exceptions\FileLockedException.cs" />
+    <Compile Include="FilesAndFolders\InfoModel\FileSystemArtifactInfo.cs" />
+    <Compile Include="FileSystemArtifactNamesValidator.cs" />
+    <Compile Include="Exceptions\FolderAlreadyExistsException.cs" />
+    <Compile Include="ContentsEnumerators\FolderContentsEnumerator.cs" />
+    <Compile Include="FolderEnumeratorRegistry.cs" />
+    <Compile Include="FilesAndFolders\InfoModel\FolderInfo.cs" />
+    <Compile Include="Exceptions\FolderNotEmptyException.cs" />
+    <Compile Include="Exceptions\FolderNotFoundException.cs" />
+    <Compile Include="Exceptions\FolderLockedException.cs" />
+    <Compile Include="FreeSpace\FreeBlockManagerDiskWriting.cs" />
+    <Compile Include="Streaming\IDataStreamStructureBuilder.cs" />
+    <Compile Include="IFilesAndFoldersProvider.cs" />
+    <Compile Include="IFileSystemArtifactNamesValidator.cs" />
+    <Compile Include="Locking\IFileSystemLockReleaseManager.cs" />
+    <Compile Include="Locking\IFileSystemObjectLockingManager.cs" />
+    <Compile Include="IFolderEnumeratorRegistry.cs" />
+    <Compile Include="Exceptions\InsufficientSpaceException.cs" />
+    <Compile Include="DiskBlockEnumeration\EmptyDiskBlockEnumerator.cs" />
+    <Compile Include="Streaming\DataStreamNodeUpdating.cs" />
+    <Compile Include="DiskBlockEnumeration\DiskBlockNodeUpdating.cs" />
+    <Compile Include="Exceptions\FileAlreadyExistsException.cs" />
+    <Compile Include="FreeSpace\FreeBlockManagerBitArrayBased.cs" />
+    <Compile Include="DiskBlockEnumeration\IDiskBlock.cs" />
+    <Compile Include="IFolderEnumeratorUnregistrar.cs" />
+    <Compile Include="FreeSpace\IFreeBlockManager.cs" />
+    <Compile Include="DiskBlockEnumeration\DiskBlock.cs" />
+    <Compile Include="DiskStructuresManagement\FileSystemNodeStorage.cs" />
+    <Compile Include="Streaming\DataStream.cs" />
+    <Compile Include="Exceptions\InvalidNameException.cs" />
+    <Compile Include="Exceptions\InvalidPathException.cs" />
+    <Compile Include="Paths\IPathValidator.cs" />
+    <Compile Include="Locking\FileSystemObjectLockingManager.cs" />
+    <Compile Include="Locking\LockKind.cs" />
+    <Compile Include="Exceptions\MaximumFolderCountReachedException.cs" />
+    <Compile Include="DiskStructuresManagement\DataStreamDefinition.cs" />
+    <Compile Include="DiskStructuresManagement\FileNode.cs" />
+    <Compile Include="DiskStructuresManagement\FileSystemHeader.cs" />
+    <Compile Include="DiskStructuresManagement\FolderNode.cs" />
+    <Compile Include="DiskStructuresManagement\Node.cs" />
+    <Compile Include="Locking\FolderNodeLockable.cs" />
+    <Compile Include="DiskStructuresManagement\NodeResolver.cs" />
+    <Compile Include="Exceptions\Irrecoverable\NoFreeBlocksException.cs" />
+    <Compile Include="DiskBlockEnumeration\NonEmptyDiskBlockEnumerator.cs" />
+    <Compile Include="DiskStructuresManagement\NodeWithSurroundingsResolvingResult.cs" />
+    <Compile Include="DiskBlockEnumeration\NullDiskBlock.cs" />
+    <Compile Include="Tasks\NullFileSystemCancellableTaskToken.cs" />
+    <Compile Include="Locking\NullFileSystemObjectLockingManager.cs" />
+    <Compile Include="Paths\PathBuilder.cs" />
+    <Compile Include="Paths\PathValidator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tasks\TaskTokenPartialWrapper.cs" />
+    <Compile Include="VirtualDiskFormatter.cs" />
+    <Compile Include="VirtualFileSystem.cs" />
+    <Compile Include="VirtualFileSystemFactory.cs" />
+    <Compile Include="VirtualFileSystemInfo.cs" />
+    <Compile Include="Streaming\DataStreamReadableAdaptedToStream.cs" />
+    <Compile Include="IFileContentsBufferFactory.cs" />
+    <Compile Include="Import\ImportingAddressableObjectVisitor.cs" />
+    <Compile Include="RealFileContentsBufferFactory.cs" />
+    <Compile Include="ContentsEnumerators\FileContentsEnumerator.cs" />
+    <Compile Include="VirtualFileContentsBufferFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VirtualFileSystem.Disk\VirtualFileSystem.Disk.csproj">
+      <Project>{0AF1357E-BD59-4195-BB99-1F4BF63D1748}</Project>
+      <Name>VirtualFileSystem.Disk</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VirtualFileSystem.Toolbox\VirtualFileSystem.Toolbox.csproj">
+      <Project>{2E51A618-4B79-43E0-A1EA-4F4BA1CA1145}</Project>
+      <Name>VirtualFileSystem.Toolbox</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Exceptions\ReadMe.txt" />
+    <Content Include="DiskStructuresManagement\ReadMe.txt" />
+    <Content Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

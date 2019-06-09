@@ -1,0 +1,60 @@
+﻿<Window x:Class="VirtualFileSystem.Browser.BrowserWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:ValueConverters="clr-namespace:VirtualFileSystem.ViewModel.ValueConverters;assembly=VirtualFileSystem.ViewModel" Title="{Binding Path=DiskBrowsedLocation}" Height="604" Width="835" WindowStartupLocation="CenterScreen" SizeToContent="WidthAndHeight" ResizeMode="NoResize">
+    <Window.Resources>
+        <ValueConverters:ViewModelToArtifactTypeConverter x:Key="ArtifactTypeConveter" />
+    </Window.Resources>
+    <StackPanel Height="555" Width="815">
+        <Menu Height="20" Margin="0,0,0,0" x:Name="BrowserMainMenu" VerticalAlignment="Top" IsMainMenu="True" Width="827">
+            <MenuItem Header="Файл">
+                <MenuItem Header="Создать файл..." x:Name="CreateNewFileMenuItem" Click="CreateNewFileMenuItemClick"/>
+                <MenuItem Header="Создать папку..." x:Name="CreateFolderMenuItem" Click="CreateFolderMenuItemClick"/>
+                <MenuItem Header="Переименовать выбранный файл/папку" x:Name="RenameSelectedMenuItem" IsEnabled="{Binding Path = CanRenameOrDeleteFileOrFolder}" Click="RenameSelectedMenuItemClick"/>
+                <MenuItem Header="Удалить выбранный файл/папку" x:Name="DeleteSelectedMenuItem" IsEnabled="{Binding Path = CanRenameOrDeleteFileOrFolder}" Click="DeleteSelectedMenuItemClick"/>
+                <MenuItem Header="Переместить выбранный файл/папку" x:Name="MoveSelectedMenuItem" IsEnabled="{Binding Path = CanRenameOrDeleteFileOrFolder}" Click="MoveSelectedMenuItemClick"/>
+                <MenuItem Header="Копировать выбранный файл/папку" x:Name="CopySelectedMenuItem" IsEnabled="{Binding Path = CanRenameOrDeleteFileOrFolder}" Click="CopySelectedMenuItemClick"/>
+                <Separator></Separator>
+                <MenuItem Header="Проимпортировать данные из файловой системы компьютера (в текущую виртуальную папку)" x:Name="ImportFilesFromLocalSystemMenuItem" Click="ImportFilesFromLocalSystemMenuItemClick"/>
+                <MenuItem Header="Проимпортировать данные из корня виртуальной файловой системы (в текущую виртуальную папку)" x:Name="ImportFilesFromVirtualSystemMenuItem" Click="ImportFilesFromVirtualSystemMenuItemClick"/>
+                <Separator></Separator>
+                <MenuItem Header="Выход" x:Name="QuitButton" IsEnabled="{Binding Path=TaskCounter.NoTasksRunning}" ToolTip="Прежде чем закрыть окно, отмените текущие задачи или дождитесь их завершения." Click="QuitButtonClick"/>
+            </MenuItem>
+        </Menu>
+        <Grid Height="400" Width="816">
+            <ListView Margin="12,76,12,0" x:Name="FilesAndFoldersListBox" ItemsSource="{Binding Path=CurrentFolderContents}" SelectionMode="Single" SelectionChanged="FilesAndFoldersListBoxSelectionChanged" MouseDoubleClick="FilesAndFoldersListBoxMouseDoubleClick" Height="304" VerticalAlignment="Top">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Название" DisplayMemberBinding="{Binding Path=Name}"></GridViewColumn>
+                        <GridViewColumn Header="Тип" DisplayMemberBinding="{Binding Converter={StaticResource ArtifactTypeConveter}}"></GridViewColumn>
+                        <GridViewColumn Header="Размер (байты)" DisplayMemberBinding="{Binding Path=SizeInBytes}"></GridViewColumn>
+                        <GridViewColumn Header="Дата, время создания" DisplayMemberBinding="{Binding Path=CreationTime}"></GridViewColumn>
+                        <GridViewColumn Header="Последнее изменение" DisplayMemberBinding="{Binding Path=LastModificationTime}"></GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <TextBox Height="23" Margin="10,18,96,0" x:Name="CurrentLocationTextBox" KeyDown="CurrentLocationTextBoxKeyDown" Text="{Binding Path=DesiredCurrentFolderPath, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" IsEnabled="{Binding Path=IsRefreshEnabled, Mode=OneWay}" />
+            <Button Height="23" HorizontalAlignment="Right" Margin="0,17,12,0" x:Name="RefreshButton" IsEnabled="{Binding Path=IsRefreshEnabled, Mode=OneWay}" Click="RefreshButtonClick" Content="Обновить" VerticalAlignment="Top" Width="75"></Button>
+            <Button Height="23" Margin="213,45,0,0" Name="SearchFileButton" ToolTip="Запускает асинхронный поиск файлов по указанной маске в указанной папке" VerticalAlignment="Top" HorizontalAlignment="Left" Width="145" Click="SearchFileButtonClick" IsEnabled="{Binding Path=FileSearchPattern.CanSearch}">Поиск файлов по маске</Button>
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="10,45,0,0" Name="FileSearchPatternTextBox" Text="{Binding Path=FileSearchPattern.Pattern, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="{Binding RelativeSource={RelativeSource Self}, Path=(Validation.Errors).CurrentItem.ErrorContent}" VerticalAlignment="Top" Width="202" />
+        </Grid>
+        <ListView Height="106" Name="TaskListView" Width="788" ItemsSource="{Binding Path=Tasks, Mode=OneWay}" SelectionMode="Single">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding Path=TaskName}" TextWrapping="Wrap" MaxWidth="400" ></TextBlock>
+                                <ProgressBar Value="{Binding Path=ProgressPercentage, Mode=OneWay}" Width="150" Margin="5"></ProgressBar>
+                                <Button x:Name="CancelTaskButton" Margin="5" Content="Отменить" IsEnabled="{Binding Path=CanCancel}" Click="CancelTaskButtonClick"></Button>
+                                <Button x:Name="ViewResultButton" Margin="5" Content="Результат" IsEnabled="{Binding Path=Completed}" Click="ViewResultButtonClick"></Button>
+                                <Button x:Name="DeleteResultButton" Margin="5" Content="Удалить" IsEnabled="{Binding Path=Completed}" Click="DeleteResultButtonClick"></Button>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StatusBar Height="30" Width="812">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Margin="5" Text="На диске свободно следующее число байт:"/>
+                <TextBlock Margin="5" Text="{Binding Path=FreeSpaceInBytes, Mode=OneWay}"/>
+            </StackPanel>
+        </StatusBar>
+    </StackPanel>
+</Window>
